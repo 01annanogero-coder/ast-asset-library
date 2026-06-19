@@ -1,0 +1,175 @@
+{
+  "library": "AST Asset Library",
+  "version": "1.0.0",
+  "maintainer": "Annan Software Team",
+  "last_updated": "2026-06-19",
+  "categories": [
+    {
+      "id": "fashion",
+      "label": "Fashion",
+      "path": "images/fashion",
+      "manifest": "images/fashion/manifest.json",
+      "subcategories": [
+        "mens",
+        "womens",
+        "kids-fashion",
+        "accessories",
+        "footwear"
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health & Wellness",
+      "path": "images/health",
+      "manifest": "images/health/manifest.json",
+      "subcategories": [
+        "fitness",
+        "nutrition",
+        "mental-health",
+        "medical"
+      ]
+    },
+    {
+      "id": "kids",
+      "label": "Kids",
+      "path": "images/kids",
+      "manifest": "images/kids/manifest.json",
+      "subcategories": [
+        "toys",
+        "education",
+        "activities",
+        "babies"
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Food & Drink",
+      "path": "images/food",
+      "manifest": "images/food/manifest.json",
+      "subcategories": [
+        "meals",
+        "drinks",
+        "desserts",
+        "ingredients",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "path": "images/technology",
+      "manifest": "images/technology/manifest.json",
+      "subcategories": [
+        "devices",
+        "coding",
+        "ai",
+        "networking",
+        "workspace"
+      ]
+    },
+    {
+      "id": "nature",
+      "label": "Nature",
+      "path": "images/nature",
+      "manifest": "images/nature/manifest.json",
+      "subcategories": [
+        "landscapes",
+        "animals",
+        "plants",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "id": "business",
+      "label": "Business",
+      "path": "images/business",
+      "manifest": "images/business/manifest.json",
+      "subcategories": [
+        "office",
+        "meetings",
+        "finance",
+        "startup",
+        "people"
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture & Interiors",
+      "path": "images/architecture",
+      "manifest": "images/architecture/manifest.json",
+      "subcategories": [
+        "interiors",
+        "exteriors",
+        "modern",
+        "traditional",
+        "commercial"
+      ]
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "path": "images/travel",
+      "manifest": "images/travel/manifest.json",
+      "subcategories": [
+        "africa",
+        "europe",
+        "asia",
+        "americas",
+        "landmarks"
+      ]
+    },
+    {
+      "id": "beauty",
+      "label": "Beauty & Cosmetics",
+      "path": "images/beauty",
+      "manifest": "images/beauty/manifest.json",
+      "subcategories": [
+        "skincare",
+        "makeup",
+        "haircare",
+        "products"
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports & Fitness",
+      "path": "images/sports",
+      "manifest": "images/sports/manifest.json",
+      "subcategories": [
+        "football",
+        "basketball",
+        "athletics",
+        "gym",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "path": "images/education",
+      "manifest": "images/education/manifest.json",
+      "subcategories": [
+        "classroom",
+        "books",
+        "elearning",
+        "science",
+        "writing"
+      ]
+    },
+    {
+      "id": "icons",
+      "label": "Icons",
+      "path": "images/icons",
+      "manifest": "images/icons/manifest.json",
+      "subcategories": [
+        "pwa",
+        "svg",
+        "social",
+        "ecommerce",
+        "arrows",
+        "ui"
+      ]
+    }
+  ]
+}
