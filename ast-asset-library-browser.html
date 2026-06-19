@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AST Asset Library Browser</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f9f9f9;
+    --surface: #ffffff;
+    --border: #e4e4e4;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #C1502E;
+    --accent-light: #fdf0ed;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  /* ── Header ── */
+  .header {
+    background: var(--surface);
+    border-bottom: 0.5px solid var(--border);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header-left { display: flex; align-items: center; gap: 12px; }
+
+  .logo { font-size: 15px; font-weight: 600; }
+  .logo span { color: var(--accent); }
+
+  /* ── Category Tabs ── */
+  .cat-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .cat-tab {
+    padding: 5px 12px;
+    border-radius: var(--radius-sm);
+    border: 0.5px solid var(--border);
+    background: var(--surface);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .12s;
+    white-space: nowrap;
+  }
+  .cat-tab:hover { border-color: var(--accent); color: var(--accent); }
+  .cat-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .cat-tab.loading { opacity: .5; pointer-events: none; }
+
+  /* ── Cart button ── */
+  .cart-btn {
+    display: flex; align-items: center; gap: 6px;
+    padding: 6px 14px;
+    border-radius: var(--radius-sm);
+    border: 0.5px solid var(--border);
+    background: var(--surface);
+    font-size: 13px;
+    cursor: pointer;
+    transition: border-color .12s;
+    white-space: nowrap;
+  }
+  .cart-btn:hover { border-color: var(--accent); }
+  .cart-btn.has-items { border-color: var(--accent); color: var(--accent); }
+  .badge {
+    background: var(--accent); color: #fff;
+    border-radius: 999px; font-size: 11px;
+    min-width: 18px; height: 18px;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 5px;
+  }
+
+  /* ── Sub-filter tabs ── */
+  .sub-tabs { display: flex; gap: 6px; padding: 12px 20px 0; flex-wrap: wrap; }
+  .sub-tab {
+    padding: 4px 10px; border-radius: var(--radius-sm);
+    border: 0.5px solid var(--border); background: var(--surface);
+    font-size: 12px; cursor: pointer; transition: all .12s;
+  }
+  .sub-tab:hover { border-color: var(--accent); color: var(--accent); }
+  .sub-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  /* ── Main layout ── */
+  .main { padding: 16px 20px 80px; }
+
+  /* ── State messages ── */
+  .state-msg {
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; padding: 60px 20px;
+    color: var(--muted); font-size: 14px; text-align: center; gap: 10px;
+  }
+  .state-msg .spinner {
+    width: 28px; height: 28px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin .6s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Image Grid ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px;
+  }
+
+  .card {
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--surface);
+    cursor: pointer;
+    position: relative;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+  .card.in-compare { border: 2px solid var(--accent); }
+
+  .card img {
+    width: 100%; aspect-ratio: 1;
+    object-fit: cover; display: block;
+  }
+  .card-label { padding: 8px 10px; font-size: 12px; }
+  .card-label .obj { font-weight: 500; }
+  .card-label .variant { color: var(--muted); }
+
+  /* Round icon buttons */
+  .icon-btn {
+    width: 26px; height: 26px; border-radius: 50%;
+    border: 0.5px solid var(--border);
+    background: rgba(255,255,255,0.92);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; cursor: pointer; position: absolute;
+    transition: background .1s;
+  }
+  .icon-btn:hover { background: #fff; }
+  .expand-btn { top: 6px; left: 6px; }
+
+  .add-btn {
+    position: absolute; top: 6px; right: 6px;
+    width: 26px; height: 26px; border-radius: 50%;
+    border: 0.5px solid var(--border);
+    background: rgba(255,255,255,0.92);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; cursor: pointer; transition: all .12s;
+    font-weight: 600; line-height: 1;
+  }
+  .add-btn.added { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  /* ── Compare Panel ── */
+  .compare-panel {
+    margin: 20px 0;
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px;
+  }
+  .compare-head {
+    display: flex; align-items: center;
+    justify-content: space-between; margin-bottom: 12px;
+  }
+  .compare-head h3 { font-size: 14px; font-weight: 500; }
+  .clear-link { font-size: 12px; color: var(--muted); cursor: pointer; text-decoration: underline; }
+
+  .compare-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 6px;
+    background: #1f1f1f;
+    border: 6px solid #1f1f1f;
+    border-radius: var(--radius-md);
+    aspect-ratio: 1;
+    max-width: 560px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .compare-cell { position: relative; background: #fff; overflow: hidden; }
+  .compare-cell img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .compare-cell-label {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    background: rgba(0,0,0,.55); color: #fff;
+    font-size: 11px; padding: 5px 8px;
+  }
+  .compare-cell .icon-btn { position: absolute; top: 6px; }
+  .compare-cell .c-expand { right: 36px; }
+  .compare-cell .c-remove { right: 6px; }
+  .empty-cell {
+    display: flex; align-items: center; justify-content: center;
+    color: var(--muted); font-size: 12px; text-align: center; padding: 1rem;
+    background: var(--bg);
+    border: 1px dashed var(--border);
+  }
+
+  /* ── Cart Panel ── */
+  .cart-panel {
+    margin-top: 24px;
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px;
+  }
+  .cart-panel h3 { font-size: 14px; font-weight: 500; margin-bottom: 10px; }
+
+  .cart-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 6px 0; font-size: 13px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .cart-row:last-of-type { border-bottom: none; }
+  .cart-row img { width: 36px; height: 36px; object-fit: cover; border-radius: 6px; flex-shrink: 0; }
+  .cart-row .info { flex: 1; }
+  .cart-row .url { font-size: 11px; color: var(--muted); word-break: break-all; }
+  .remove-x { cursor: pointer; color: var(--muted); font-size: 18px; flex-shrink: 0; }
+  .remove-x:hover { color: var(--accent); }
+
+  .cart-actions { margin-top: 12px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .btn-primary {
+    background: var(--accent); color: #fff;
+    border: none; border-radius: var(--radius-sm);
+    padding: 8px 16px; font-size: 13px; cursor: pointer;
+    transition: opacity .1s;
+  }
+  .btn-primary:hover { opacity: .88; }
+  .btn-secondary {
+    background: var(--surface); color: var(--text);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 8px 16px; font-size: 13px; cursor: pointer;
+  }
+  .copy-status { font-size: 12px; color: var(--muted); }
+  .cart-hint { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  textarea.fallback {
+    width: 100%; margin-top: 8px;
+    font-family: monospace; font-size: 11px; height: 90px;
+    border: 0.5px solid var(--border); border-radius: var(--radius-sm);
+    padding: 8px; resize: vertical;
+  }
+  .empty-msg { font-size: 13px; color: var(--muted); padding: 8px 0; }
+
+  /* ── Lightbox ── */
+  .lightbox-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,.75);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 1000; padding: 24px;
+  }
+  .lightbox-box {
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    max-width: min(90vw, 720px);
+    max-height: 90vh;
+    display: flex; flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+  }
+  .lightbox-hdr {
+    display: flex; align-items: center;
+    justify-content: space-between; gap: 12px;
+    padding: 12px 14px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .lightbox-hdr .title .obj { font-weight: 500; font-size: 14px; }
+  .lightbox-hdr .title .variant { color: var(--muted); font-size: 14px; }
+  .lightbox-close {
+    width: 28px; height: 28px; border-radius: 50%;
+    border: 0.5px solid var(--border); background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; cursor: pointer; flex-shrink: 0;
+  }
+  .lightbox-img {
+    width: 100%; max-height: 65vh;
+    object-fit: contain; background: #0d0d0d;
+  }
+  .lightbox-ftr {
+    padding: 10px 14px;
+    display: flex; align-items: center; justify-content: space-between;
+    border-top: 0.5px solid var(--border);
+    gap: 10px; flex-wrap: wrap;
+  }
+  .lightbox-ftr .raw-url { font-size: 11px; color: var(--muted); word-break: break-all; flex: 1; }
+  .open-link {
+    font-size: 13px; color: var(--accent);
+    text-decoration: none; white-space: nowrap;
+    display: flex; align-items: center; gap: 4px;
+  }
+  .open-link:hover { text-decoration: underline; }
+
+  /* ── Toast ── */
+  .toast {
+    position: fixed; bottom: 24px; left: 50%;
+    transform: translateX(-50%);
+    background: #1f1f1f; color: #fff;
+    padding: 10px 18px; border-radius: var(--radius-md);
+    font-size: 13px; z-index: 1100;
+    animation: toast-in .15s ease-out;
+    white-space: nowrap;
+  }
+  @keyframes toast-in { from{ opacity:0; transform:translate(-50%,8px); } to{ opacity:1; transform:translate(-50%,0); } }
+
+  /* ── Cart Drawer ── */
+  .drawer-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,.35);
+    z-index: 200;
+  }
+  .drawer {
+    position: fixed; top: 0; right: 0; bottom: 0;
+    width: min(90vw, 380px);
+    background: var(--surface);
+    box-shadow: -4px 0 24px rgba(0,0,0,.12);
+    z-index: 201;
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .drawer-hdr {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    padding: 16px; border-bottom: 0.5px solid var(--border);
+    flex-shrink: 0;
+  }
+  .drawer-hdr h3 { font-size: 15px; font-weight: 600; }
+  .drawer-body { flex: 1; overflow-y: auto; padding: 12px 16px; }
+  .drawer-ftr { padding: 12px 16px; border-top: 0.5px solid var(--border); flex-shrink: 0; }
+</style>
+</head>
+<body>
+
+<!-- Notice: only shows inside Claude preview pane -->
+<div id="env-notice" style="display:none; background:#FAEEDA; color:#633806; border:0.5px solid #EF9F27; border-radius:8px; padding:10px 14px; font-size:13px; margin:12px 16px 0;">⚠️ <strong>Images won't display inside Claude's preview pane</strong> — the sandbox blocks external URLs. Download this file and open it in your browser (Chrome, Edge, Firefox) to browse, compare, and build your cart.</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-left">
+    <div class="logo">AST <span>Asset Library</span></div>
+    <div class="cat-tabs" id="cat-tabs">
+      <div class="cat-tab loading">Loading…</div>
+    </div>
+  </div>
+  <div class="cart-btn" id="cart-btn" onclick="openDrawer()">
+    🛒 Cart <span class="badge" id="cart-badge">0</span>
+  </div>
+</header>
+
+<!-- Sub-filter -->
+<div class="sub-tabs" id="sub-tabs"></div>
+
+<!-- Main content -->
+<div class="main" id="main">
+  <div class="state-msg"><div class="spinner"></div>Loading categories…</div>
+</div>
+
+<!-- Cart Drawer -->
+<div class="drawer-overlay" id="drawer-overlay" style="display:none;" onclick="closeDrawer()"></div>
+<div class="drawer" id="drawer" style="display:none;">
+  <div class="drawer-hdr">
+    <h3>Cart</h3>
+    <div class="lightbox-close" onclick="closeDrawer()">✕</div>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+  <div class="drawer-ftr" id="drawer-ftr"></div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightbox" style="display:none;" onclick="closeLightbox()">
+  <div class="lightbox-box" onclick="event.stopPropagation()">
+    <div class="lightbox-hdr">
+      <div class="title" id="lb-title"></div>
+      <div class="lightbox-close" onclick="closeLightbox()">✕</div>
+    </div>
+    <img id="lb-img" class="lightbox-img" src="" alt=""/>
+    <div class="lightbox-ftr">
+      <div class="raw-url" id="lb-url"></div>
+      <a id="lb-link" class="open-link" href="#" target="_blank" rel="noopener">↗ Open in new tab</a>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast" style="display:none;"></div>
+
+<script>
+const REPO = "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main";
+
+// ── State ──────────────────────────────────────────────
+let categories = [];          // from topics.json
+let currentCat = null;        // selected category id
+let allItems = [];            // loaded from manifest
+let subFilter = "all";        // subcategory filter
+let compareSet = [];          // up to 4 ids
+let cart = [];                // selected ids
+let lightboxId = null;
+let drawerOpen = false;
+let toastTimer = null;
+
+// ── Boot ───────────────────────────────────────────────
+async function boot() {
+  try {
+    const res = await fetch(`${REPO}/topics.json`);
+    const data = await res.json();
+    categories = data.categories.filter(c => {
+      // only show categories that actually have a manifest
+      return true;
+    });
+    renderCatTabs();
+    if (categories.length > 0) {
+      await loadCategory(categories[0].id);
+    }
+  } catch(e) {
+    document.getElementById("main").innerHTML =
+      `<div class="state-msg">⚠️ Could not load topics.json — is the repo public?<br><small>${e.message}</small></div>`;
+  }
+}
+
+// ── Category tabs ──────────────────────────────────────
+function renderCatTabs() {
+  const el = document.getElementById("cat-tabs");
+  el.innerHTML = categories.map(c =>
+    `<div class="cat-tab ${c.id===currentCat?'active':''}" onclick="loadCategory('${c.id}')">${c.label}</div>`
+  ).join("");
+}
+
+async function loadCategory(id) {
+  currentCat = id;
+  subFilter = "all";
+  compareSet = [];
+  renderCatTabs();
+  document.getElementById("sub-tabs").innerHTML = "";
+  document.getElementById("main").innerHTML =
+    `<div class="state-msg"><div class="spinner"></div>Loading ${id}…</div>`;
+
+  try {
+    const cat = categories.find(c => c.id === id);
+    const res = await fetch(`${REPO}/${cat.manifest}`);
+    const data = await res.json();
+
+    if (!data.images || data.images.length === 0) {
+      document.getElementById("main").innerHTML =
+        `<div class="state-msg">No images in this category yet.</div>`;
+      return;
+    }
+
+    allItems = data.images.map(img => ({
+      id: img.id,
+      object: img.object,
+      variant: img.variant,
+      subcategory: img.subcategory || "general",
+      rawUrl: img.raw_url
+    }));
+
+    // Build sub-filter tabs from unique subcategories
+    const subs = [...new Set(allItems.map(i => i.subcategory))].filter(Boolean);
+    renderSubTabs(subs);
+    renderGrid();
+
+  } catch(e) {
+    document.getElementById("main").innerHTML =
+      `<div class="state-msg">⚠️ Could not load manifest for <strong>${id}</strong>.<br>
+      This category may not have images yet.<br><small>${e.message}</small></div>`;
+  }
+}
+
+// ── Sub-filter tabs ────────────────────────────────────
+function renderSubTabs(subs) {
+  if (subs.length <= 1) { document.getElementById("sub-tabs").innerHTML = ""; return; }
+  const el = document.getElementById("sub-tabs");
+  const all = [["all","All"], ...subs.map(s => [s, capitalise(s)])];
+  el.innerHTML = all.map(([key,lbl]) =>
+    `<div class="sub-tab ${subFilter===key?'active':''}" onclick="setSubFilter('${key}')">${lbl}</div>`
+  ).join("");
+}
+
+function setSubFilter(key) {
+  subFilter = key;
+  renderSubTabs([...new Set(allItems.map(i => i.subcategory))]);
+  renderGrid();
+}
+
+function capitalise(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+// ── Grid ───────────────────────────────────────────────
+function renderGrid() {
+  const visible = allItems.filter(i => subFilter === "all" || i.subcategory === subFilter);
+  const main = document.getElementById("main");
+
+  if (visible.length === 0) {
+    main.innerHTML = `<div class="state-msg">No images in this subcategory yet.</div>`;
+    return;
+  }
+
+  let html = `<div class="grid">`;
+  visible.forEach(item => {
+    const inCompare = compareSet.includes(item.id);
+    const inCart = cart.includes(item.id);
+    html += `
+      <div class="card ${inCompare?'in-compare':''}" onclick="toggleCompare('${item.id}')">
+        <img src="${item.rawUrl}" alt="${item.object} ${item.variant}" loading="lazy"/>
+        <button class="icon-btn expand-btn" onclick="event.stopPropagation();openLightbox('${item.id}')" title="Full view">⤢</button>
+        <div class="add-btn ${inCart?'added':''}" onclick="event.stopPropagation();toggleCart('${item.id}')" title="${inCart?'Remove from cart':'Add to cart'}">${inCart?'✓':'+'}</div>
+        <div class="card-label">
+          <div class="obj">${item.object}</div>
+          <div class="variant">${item.variant}</div>
+        </div>
+      </div>`;
+  });
+  html += `</div>`;
+
+  // Compare panel
+  if (compareSet.length >= 2) {
+    html += `<div class="compare-panel">
+      <div class="compare-head">
+        <h3>Comparing ${compareSet.length} of 4</h3>
+        <span class="clear-link" onclick="clearCompare()">Clear</span>
+      </div>
+      <div class="compare-grid">`;
+    for (let i = 0; i < 4; i++) {
+      const id = compareSet[i];
+      if (id) {
+        const it = allItems.find(x => x.id === id);
+        html += `<div class="compare-cell">
+          <img src="${it.rawUrl}" alt="${it.object}"/>
+          <button class="icon-btn c-expand" onclick="openLightbox('${it.id}')" title="Full view">⤢</button>
+          <button class="icon-btn c-remove" onclick="toggleCompare('${it.id}')" title="Remove">✕</button>
+          <div class="compare-cell-label">${it.object} — ${it.variant}</div>
+        </div>`;
+      } else {
+        html += `<div class="compare-cell empty-cell">Click an image to compare</div>`;
+      }
+    }
+    html += `</div></div>`;
+  }
+
+  main.innerHTML = html;
+}
+
+// ── Compare ────────────────────────────────────────────
+function toggleCompare(id) {
+  const idx = compareSet.indexOf(id);
+  if (idx >= 0) { compareSet.splice(idx,1); renderGrid(); return; }
+  if (compareSet.length >= 4) { showToast("Max 4 images in comparison."); return; }
+  compareSet.push(id);
+  renderGrid();
+}
+function clearCompare() { compareSet = []; renderGrid(); }
+
+// ── Cart ───────────────────────────────────────────────
+function toggleCart(id) {
+  const idx = cart.indexOf(id);
+  if (idx >= 0) cart.splice(idx,1); else cart.push(id);
+  updateCartUI();
+  renderGrid();
+  if (drawerOpen) renderDrawer();
+}
+
+function updateCartUI() {
+  const badge = document.getElementById("cart-badge");
+  const btn = document.getElementById("cart-btn");
+  badge.textContent = cart.length;
+  btn.classList.toggle("has-items", cart.length > 0);
+}
+
+function openDrawer() {
+  drawerOpen = true;
+  document.getElementById("drawer-overlay").style.display = "block";
+  document.getElementById("drawer").style.display = "flex";
+  renderDrawer();
+}
+function closeDrawer() {
+  drawerOpen = false;
+  document.getElementById("drawer-overlay").style.display = "none";
+  document.getElementById("drawer").style.display = "none";
+}
+
+function renderDrawer() {
+  const body = document.getElementById("drawer-body");
+  const ftr = document.getElementById("drawer-ftr");
+
+  if (cart.length === 0) {
+    body.innerHTML = `<div class="empty-msg">No items added yet.<br>Click + on any image to add it.</div>`;
+    ftr.innerHTML = "";
+    return;
+  }
+
+  // Find items from any loaded items (cross-category not supported yet)
+  const cartItems = cart.map(id => allItems.find(i => i.id === id)).filter(Boolean);
+
+  body.innerHTML = cartItems.map(item => `
+    <div class="cart-row">
+      <img src="${item.rawUrl}" alt="${item.object}"/>
+      <div class="info">
+        <div>${item.object} — ${item.variant}</div>
+        <div class="url">${item.rawUrl}</div>
+      </div>
+      <div class="remove-x" onclick="toggleCart('${item.id}')">×</div>
+    </div>`).join("");
+
+  ftr.innerHTML = `
+    <div class="cart-actions">
+      <button class="btn-primary" onclick="copyCartURLs()">Copy URLs</button>
+      <button class="btn-secondary" onclick="clearCart()">Clear all</button>
+      <span class="copy-status" id="copy-status"></span>
+    </div>
+    <p class="cart-hint">Copy URLs and paste them into Claude chat, your code, or Canva.</p>
+    <textarea class="fallback" id="fallback-box" style="display:none;" readonly></textarea>`;
+}
+
+function clearCart() { cart = []; updateCartUI(); renderGrid(); renderDrawer(); }
+
+function copyCartURLs() {
+  const cartItems = cart.map(id => allItems.find(i => i.id === id)).filter(Boolean);
+  const text = cartItems.map(i =>
+    `${i.object} — ${i.variant}\n${i.rawUrl}`
+  ).join("\n\n");
+
+  const status = document.getElementById("copy-status");
+  const fallback = document.getElementById("fallback-box");
+
+  navigator.clipboard.writeText(text).then(() => {
+    status.textContent = "✓ Copied!";
+    setTimeout(() => status.textContent = "", 2500);
+    fallback.style.display = "none";
+  }).catch(() => {
+    fallback.style.display = "block";
+    fallback.value = text;
+    fallback.select();
+    status.textContent = "Select text below, then Ctrl/Cmd+C";
+  });
+}
+
+// ── Lightbox ───────────────────────────────────────────
+function openLightbox(id) {
+  const item = allItems.find(i => i.id === id);
+  if (!item) return;
+  document.getElementById("lb-title").innerHTML =
+    `<span class="obj">${item.object}</span> <span class="variant">— ${item.variant}</span>`;
+  document.getElementById("lb-img").src = item.rawUrl;
+  document.getElementById("lb-url").textContent = item.rawUrl;
+  document.getElementById("lb-link").href = item.rawUrl;
+  document.getElementById("lightbox").style.display = "flex";
+}
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none";
+  document.getElementById("lb-img").src = "";
+}
+
+// ── Toast ──────────────────────────────────────────────
+function showToast(msg) {
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.display = "block";
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.style.display = "none", 2200);
+}
+
+// ── Keyboard ───────────────────────────────────────────
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") {
+    if (document.getElementById("lightbox").style.display !== "none") closeLightbox();
+    else if (drawerOpen) closeDrawer();
+  }
+});
+
+// ── Start ──────────────────────────────────────────────
+boot();
+</script>
+  <script>if (window.self !== window.top) document.getElementById("env-notice").style.display = "block";</script>
+</body>
+</html>
