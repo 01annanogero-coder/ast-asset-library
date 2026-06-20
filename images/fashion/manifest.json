@@ -1,11 +1,241 @@
 {
   "category": "fashion",
   "label": "Fashion",
-  "last_updated": "2026-06-19",
-  "total_images": 10,
+  "last_updated": "2026-06-20",
+  "total_images": 20,
   "images": [
     {
       "id": "fashion-001",
+      "object": "Accessories Belt",
+      "variant": "leather black",
+      "subcategory": "accessories",
+      "file": "images/fashion/accessories/accessories-belt-leather-black.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/accessories/accessories-belt-leather-black.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 27,
+      "tags": [
+        "fashion",
+        "accessories",
+        "belt",
+        "leather",
+        "black"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Accessories Belt — leather black"
+    },
+    {
+      "id": "fashion-002",
+      "object": "Accessories Handbag",
+      "variant": "tote tan",
+      "subcategory": "accessories",
+      "file": "images/fashion/accessories/accessories-handbag-tote-tan.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/accessories/accessories-handbag-tote-tan.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 57,
+      "tags": [
+        "fashion",
+        "accessories",
+        "handbag",
+        "tote",
+        "tan"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Accessories Handbag — tote tan"
+    },
+    {
+      "id": "fashion-003",
+      "object": "Accessories Scarf",
+      "variant": "silk patterned",
+      "subcategory": "accessories",
+      "file": "images/fashion/accessories/accessories-scarf-silk-patterned.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/accessories/accessories-scarf-silk-patterned.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 50,
+      "tags": [
+        "fashion",
+        "accessories",
+        "scarf",
+        "silk",
+        "patterned"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Accessories Scarf — silk patterned"
+    },
+    {
+      "id": "fashion-004",
+      "object": "Accessories Sunglasses",
+      "variant": "aviator gold",
+      "subcategory": "accessories",
+      "file": "images/fashion/accessories/accessories-sunglasses-aviator-gold.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/accessories/accessories-sunglasses-aviator-gold.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 41,
+      "tags": [
+        "fashion",
+        "accessories",
+        "sunglasses",
+        "aviator",
+        "gold"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Accessories Sunglasses — aviator gold"
+    },
+    {
+      "id": "fashion-005",
+      "object": "Accessories Watch",
+      "variant": "leather brown",
+      "subcategory": "accessories",
+      "file": "images/fashion/accessories/accessories-watch-leather-brown.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/accessories/accessories-watch-leather-brown.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 106,
+      "tags": [
+        "fashion",
+        "accessories",
+        "watch",
+        "leather",
+        "brown"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Accessories Watch — leather brown"
+    },
+    {
+      "id": "fashion-006",
+      "object": "Footwear Boots",
+      "variant": "leather brown",
+      "subcategory": "footwear",
+      "file": "images/fashion/footwear/footwear-boots-leather-brown.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/footwear/footwear-boots-leather-brown.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 35,
+      "tags": [
+        "fashion",
+        "footwear",
+        "boots",
+        "leather",
+        "brown"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Footwear Boots — leather brown"
+    },
+    {
+      "id": "fashion-007",
+      "object": "Footwear Heels",
+      "variant": "strappy nude",
+      "subcategory": "footwear",
+      "file": "images/fashion/footwear/footwear-heels-strappy-nude.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/footwear/footwear-heels-strappy-nude.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 38,
+      "tags": [
+        "fashion",
+        "footwear",
+        "heels",
+        "strappy",
+        "nude"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Footwear Heels — strappy nude"
+    },
+    {
+      "id": "fashion-008",
+      "object": "Footwear Loafers",
+      "variant": "suede navy",
+      "subcategory": "footwear",
+      "file": "images/fashion/footwear/footwear-loafers-suede-navy.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/footwear/footwear-loafers-suede-navy.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 38,
+      "tags": [
+        "fashion",
+        "footwear",
+        "loafers",
+        "suede",
+        "navy"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Footwear Loafers — suede navy"
+    },
+    {
+      "id": "fashion-009",
+      "object": "Footwear Sandals",
+      "variant": "flat tan",
+      "subcategory": "footwear",
+      "file": "images/fashion/footwear/footwear-sandals-flat-tan.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/footwear/footwear-sandals-flat-tan.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 46,
+      "tags": [
+        "fashion",
+        "footwear",
+        "sandals",
+        "flat",
+        "tan"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Footwear Sandals — flat tan"
+    },
+    {
+      "id": "fashion-010",
+      "object": "Footwear Sneakers",
+      "variant": "white minimal",
+      "subcategory": "footwear",
+      "file": "images/fashion/footwear/footwear-sneakers-white-minimal.webp",
+      "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/footwear/footwear-sneakers-white-minimal.webp",
+      "format": "webp",
+      "dimensions": "—",
+      "size_kb": 46,
+      "tags": [
+        "fashion",
+        "footwear",
+        "sneakers",
+        "white",
+        "minimal"
+      ],
+      "colors": [],
+      "mood": "",
+      "license": "free",
+      "source": "",
+      "description": "Footwear Sneakers — white minimal"
+    },
+    {
+      "id": "fashion-011",
       "object": "Mens Jacket",
       "variant": "leather black",
       "subcategory": "mens",
@@ -28,7 +258,7 @@
       "description": "Mens Jacket — leather black"
     },
     {
-      "id": "fashion-002",
+      "id": "fashion-012",
       "object": "Mens Jeans",
       "variant": "denim slim",
       "subcategory": "mens",
@@ -51,7 +281,7 @@
       "description": "Mens Jeans — denim slim"
     },
     {
-      "id": "fashion-003",
+      "id": "fashion-013",
       "object": "Mens Shirt",
       "variant": "white casual",
       "subcategory": "mens",
@@ -74,7 +304,7 @@
       "description": "Mens Shirt — white casual"
     },
     {
-      "id": "fashion-004",
+      "id": "fashion-014",
       "object": "Mens Suit",
       "variant": "navy formal",
       "subcategory": "mens",
@@ -97,7 +327,7 @@
       "description": "Mens Suit — navy formal"
     },
     {
-      "id": "fashion-005",
+      "id": "fashion-015",
       "object": "Mens Sweater",
       "variant": "wool grey",
       "subcategory": "mens",
@@ -120,7 +350,7 @@
       "description": "Mens Sweater — wool grey"
     },
     {
-      "id": "fashion-006",
+      "id": "fashion-016",
       "object": "Womens Blouse",
       "variant": "silk cream",
       "subcategory": "womens",
@@ -143,7 +373,7 @@
       "description": "Womens Blouse — silk cream"
     },
     {
-      "id": "fashion-007",
+      "id": "fashion-017",
       "object": "Womens Coat",
       "variant": "wool camel",
       "subcategory": "womens",
@@ -166,7 +396,7 @@
       "description": "Womens Coat — wool camel"
     },
     {
-      "id": "fashion-008",
+      "id": "fashion-018",
       "object": "Womens Dress",
       "variant": "floral summer",
       "subcategory": "womens",
@@ -189,7 +419,7 @@
       "description": "Womens Dress — floral summer"
     },
     {
-      "id": "fashion-009",
+      "id": "fashion-019",
       "object": "Womens Jumpsuit",
       "variant": "linen beige",
       "subcategory": "womens",
@@ -212,7 +442,7 @@
       "description": "Womens Jumpsuit — linen beige"
     },
     {
-      "id": "fashion-010",
+      "id": "fashion-020",
       "object": "Womens Skirt",
       "variant": "pleated black",
       "subcategory": "womens",

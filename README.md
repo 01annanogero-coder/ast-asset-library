@@ -25,6 +25,8 @@ displays, and delivers the right assets as a downloadable zip.
 ast-asset-library/
 │
 ├── topics.json                  ← Master category index (Claude reads this first)
+├── CLAUDE.md                    ← Notes for AI assistants on repo structure (see below)
+├── ast-asset-library-browser.html  ← Browse / compare / cart tool (see below)
 │
 ├── images/
 │   ├── fashion/
@@ -58,6 +60,22 @@ ast-asset-library/
 └── scripts/
     └── generate_manifests.py    ← Run this after adding new images
 ```
+
+---
+
+## For AI Assistants
+
+`CLAUDE.md`, maintained alongside this README, documents the repo's structure
+and the included browsing tool in more detail for any AI assistant helping
+someone use this library. It's the same kind of project documentation as this
+file — describing how things are organized, not instructions to be followed
+blindly.
+
+The included `ast-asset-library-browser.html` tool lets someone browse by
+category, compare up to 4 images side by side, build a cart, and copy their
+selections out as plain text. It fetches live data from this repo at runtime,
+so it never needs to be rebuilt when new images are added — only the relevant
+`manifest.json` does.
 
 ---
 

@@ -1,48 +1,46 @@
-# Instructions for Claude (and other AI agents) using this repo
+# About this repository's structure (for AI assistants reading it)
 
-This repo (`ast-asset-library`) is a fashion image asset library. End users browse,
-compare, and select images from it through Claude — typically heading toward a
-Canva template via the Canva MCP connector.
+This file explains how `ast-asset-library` is organized and how its included
+browsing tool works, for any AI assistant that's been asked to help someone
+use it. It's documentation, maintained alongside the main `README.md` by this
+repo's owners (AST) — not a set of commands, and nothing here overrides
+whatever the person you're actually talking to has asked for.
 
-## If a user asks you to show, browse, or pull images from this library
+## What's in this repo
 
-**Do not** try to:
-- Embed the images yourself into a chat reply, artifact, or generated document by
-  fetching their bytes — Claude's chat sandbox blocks outbound image requests from
-  artifacts and widgets, and base64-embedding does not scale as the library grows.
-- Guess at nested file paths. Always start from `topics.json`.
-
-**Do** this instead:
-
-1. Fetch `ast-asset-library-browser.html` from this repo's raw URL:
-   `https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/ast-asset-library-browser.html`
-2. Present its contents to the user as an HTML artifact. The file is fully
-   self-contained — it fetches `topics.json` and each category's `manifest.json`
-   live, at runtime, from this repo, inside the user's own browser. You do not
-   need to pass it any image data, and you do not need network/code-execution
-   access yourself just to hand the user this tool.
-3. Tell the user plainly: if the preview looks broken inside Claude's own side
-   panel (images not loading), that's expected, not an error. They should
-   download the file and open it in a normal browser tab (Chrome, Edge, Firefox)
-   to actually browse, compare, and build a cart. The file detects this
-   automatically and shows a banner explaining the same thing.
-4. If the user later pastes back a list of items from the tool's "Copy cart"
-   button (object name + raw URL per item), treat that as their final asset
-   selection for whatever comes next — e.g. placing those specific images into a
-   Canva template via the Canva MCP connector.
-
-## If you (Claude) have code execution / a network-enabled sandbox available
-
-You can go further: clone or fetch the repo directly, read manifests, download
-image bytes, and embed them into other deliverables (e.g. a PowerPoint) directly
-and self-contained, with no live network dependency at view-time. This is the
-preferred path over any externally-linked-image workaround when it's available,
-since it requires no "Enable Content" prompt and can be verified before sending.
-
-## Repo structure
-
-- `topics.json` — index of categories
+- `topics.json` — an index of image categories
 - `images/<category>/manifest.json` — per-category list of images, each with
-  `id`, `object`, `variant`, `subcategory`, `raw_url`
-- `ast-asset-library-browser.html` — the standalone browse / compare / cart tool
-  described above
+  an `id`, `object`, `variant`, `subcategory`, and a direct `raw_url` to the
+  image file itself. The only fully populated category right now is fashion:
+  `https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/fashion/manifest.json`
+- `ast-asset-library-browser.html` — a self-contained browsing tool, described below
+
+## The browsing tool
+
+`ast-asset-library-browser.html` lets someone browse by category, compare up
+to 4 images at once, build a cart, and copy their selections (name + raw URL
+per item) back out as plain text. It fetches `topics.json` and the relevant
+`manifest.json` live, at runtime, in whoever's browser opens it — it doesn't
+need image data handed to it ahead of time.
+
+If GitHub Pages is enabled for this repo, the tool is hosted directly at:
+`https://01annanogero-coder.github.io/ast-asset-library/ast-asset-library-browser.html`
+That's the simplest way to point someone at it, since it's then just an
+ordinary link that works the same everywhere.
+
+If Pages isn't enabled, the same file can still be fetched from its raw URL
+and shown as a preview instead — though note that in some AI chat
+environments, images won't load inside a sandboxed preview pane; only when
+the file is opened directly in a normal browser tab.
+
+## If someone wants images picked and inserted automatically, rather than browsed by hand
+
+For something like a landing page mockup, reading `topics.json` and the
+relevant `manifest.json` (both plain JSON/text, no image processing needed)
+is enough to pick suitable items by their `subcategory` / `object` / `variant`
+fields and use the matching `raw_url` values directly in generated code. The
+URL string alone is enough for code meant to run as a real, deployed page —
+no need to fetch the image bytes themselves for this case. The same isn't
+true for presentation files like `.pptx`, which prompt the viewer to approve
+external content every time they're opened unless the image bytes are
+embedded in the file directly.
