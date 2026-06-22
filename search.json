@@ -1,0 +1,1842 @@
+{
+  "generated": "2026-06-22",
+  "total_terms": 462,
+  "index": {
+    "accessories": [
+      "fashion-001",
+      "fashion-002",
+      "fashion-003",
+      "fashion-004",
+      "fashion-005"
+    ],
+    "accessories aviator": [
+      "fashion-004"
+    ],
+    "accessories belt": [
+      "fashion-001"
+    ],
+    "accessories handbag": [
+      "fashion-002"
+    ],
+    "accessories leather": [
+      "fashion-001",
+      "fashion-005"
+    ],
+    "accessories scarf": [
+      "fashion-003"
+    ],
+    "accessories silk": [
+      "fashion-003"
+    ],
+    "accessories sunglasses": [
+      "fashion-004"
+    ],
+    "accessories tote": [
+      "fashion-002"
+    ],
+    "accessories watch": [
+      "fashion-005"
+    ],
+    "action": [
+      "kids-021"
+    ],
+    "activities": [
+      "kids-001",
+      "kids-002",
+      "kids-003",
+      "kids-004",
+      "kids-005",
+      "kids-006",
+      "kids-007",
+      "kids-008",
+      "kids-009",
+      "kids-010",
+      "kids-011",
+      "kids-012",
+      "kids-013",
+      "kids-014",
+      "kids-015",
+      "kids-016",
+      "kids-017",
+      "kids-018",
+      "kids-019",
+      "kids-020"
+    ],
+    "alphabet": [
+      "kids-022"
+    ],
+    "animal": [
+      "kids-037"
+    ],
+    "ankle boots": [
+      "fashion-006"
+    ],
+    "art": [
+      "kids-010"
+    ],
+    "aviator": [
+      "fashion-004"
+    ],
+    "backpack": [
+      "kids-001"
+    ],
+    "bag": [
+      "fashion-001",
+      "fashion-002",
+      "fashion-003",
+      "fashion-004",
+      "fashion-005"
+    ],
+    "ball": [
+      "kids-017"
+    ],
+    "bands": [
+      "health-007"
+    ],
+    "bath": [
+      "kids-035"
+    ],
+    "beach": [
+      "fashion-018",
+      "kids-018"
+    ],
+    "bear": [
+      "kids-038"
+    ],
+    "bed": [
+      "kids-016"
+    ],
+    "bedroom": [
+      "kids-015"
+    ],
+    "beige": [
+      "fashion-017",
+      "fashion-019"
+    ],
+    "belt": [
+      "fashion-001",
+      "fashion-002",
+      "fashion-003",
+      "fashion-004",
+      "fashion-005"
+    ],
+    "bicycle": [
+      "kids-002"
+    ],
+    "birthday": [
+      "kids-003"
+    ],
+    "black": [
+      "fashion-001",
+      "fashion-011",
+      "fashion-020"
+    ],
+    "blazer": [
+      "fashion-014"
+    ],
+    "blocks": [
+      "kids-004",
+      "kids-022",
+      "kids-023"
+    ],
+    "blouse": [
+      "fashion-013",
+      "fashion-016"
+    ],
+    "blue": [
+      "fashion-008",
+      "fashion-014",
+      "kids-033"
+    ],
+    "board": [
+      "health-018"
+    ],
+    "book": [
+      "kids-015"
+    ],
+    "boots": [
+      "fashion-006"
+    ],
+    "botanical": [
+      "fashion-018"
+    ],
+    "bottle": [
+      "health-019",
+      "health-020"
+    ],
+    "bowl": [
+      "health-011",
+      "health-012",
+      "health-016"
+    ],
+    "boy": [
+      "kids-001",
+      "kids-002",
+      "kids-003",
+      "kids-004",
+      "kids-005",
+      "kids-006",
+      "kids-007",
+      "kids-008",
+      "kids-009",
+      "kids-010",
+      "kids-011",
+      "kids-012",
+      "kids-013",
+      "kids-014",
+      "kids-015",
+      "kids-016",
+      "kids-017",
+      "kids-018"
+    ],
+    "breathable": [
+      "fashion-019"
+    ],
+    "bricks": [
+      "kids-024"
+    ],
+    "bright": [
+      "fashion-010",
+      "fashion-013",
+      "fashion-018",
+      "kids-018"
+    ],
+    "brown": [
+      "fashion-005",
+      "fashion-006",
+      "fashion-017",
+      "kids-038"
+    ],
+    "building": [
+      "kids-004",
+      "kids-024"
+    ],
+    "business": [
+      "fashion-014"
+    ],
+    "business attire": [
+      "fashion-014"
+    ],
+    "cake": [
+      "kids-003"
+    ],
+    "camel": [
+      "fashion-017"
+    ],
+    "car": [
+      "kids-025"
+    ],
+    "cardio": [
+      "health-004"
+    ],
+    "casual": [
+      "fashion-013"
+    ],
+    "celebration": [
+      "kids-003"
+    ],
+    "child": [
+      "kids-001",
+      "kids-002",
+      "kids-003",
+      "kids-004",
+      "kids-005",
+      "kids-006",
+      "kids-007",
+      "kids-008",
+      "kids-009",
+      "kids-010",
+      "kids-011",
+      "kids-012",
+      "kids-013",
+      "kids-014",
+      "kids-015",
+      "kids-016",
+      "kids-017",
+      "kids-018"
+    ],
+    "children": [
+      "kids-001",
+      "kids-002",
+      "kids-003",
+      "kids-004",
+      "kids-005",
+      "kids-006",
+      "kids-007",
+      "kids-008",
+      "kids-009",
+      "kids-010",
+      "kids-011",
+      "kids-012",
+      "kids-013",
+      "kids-014",
+      "kids-015",
+      "kids-016",
+      "kids-017",
+      "kids-018"
+    ],
+    "chopping": [
+      "health-018"
+    ],
+    "class": [
+      "kids-010"
+    ],
+    "classic": [
+      "kids-042"
+    ],
+    "classroom": [
+      "kids-019"
+    ],
+    "clean": [
+      "fashion-010",
+      "fashion-013"
+    ],
+    "client": [
+      "health-009"
+    ],
+    "coaching": [
+      "health-009"
+    ],
+    "coat": [
+      "fashion-011",
+      "fashion-017"
+    ],
+    "colorful": [
+      "kids-023",
+      "kids-030",
+      "kids-041"
+    ],
+    "containers": [
+      "health-013"
+    ],
+    "control": [
+      "kids-025"
+    ],
+    "costume": [
+      "kids-005"
+    ],
+    "cotton": [
+      "fashion-012",
+      "fashion-019"
+    ],
+    "cozy": [
+      "fashion-015",
+      "fashion-017",
+      "kids-016"
+    ],
+    "crayons": [
+      "kids-007"
+    ],
+    "cream": [
+      "fashion-016"
+    ],
+    "cuisine": [
+      "health-013"
+    ],
+    "cycling": [
+      "health-001"
+    ],
+    "dancing": [
+      "kids-006"
+    ],
+    "dark": [
+      "fashion-001",
+      "fashion-011",
+      "fashion-020"
+    ],
+    "dark blue": [
+      "fashion-008",
+      "fashion-014"
+    ],
+    "deep blue": [
+      "fashion-008",
+      "fashion-014"
+    ],
+    "denim": [
+      "fashion-012"
+    ],
+    "dish": [
+      "health-013"
+    ],
+    "doctor": [
+      "kids-026"
+    ],
+    "dog": [
+      "kids-011"
+    ],
+    "dollhouse": [
+      "kids-027"
+    ],
+    "drawing": [
+      "kids-007"
+    ],
+    "dress": [
+      "fashion-018"
+    ],
+    "drum": [
+      "kids-028"
+    ],
+    "duck": [
+      "kids-035"
+    ],
+    "dumbbells": [
+      "health-002"
+    ],
+    "eating": [
+      "kids-008"
+    ],
+    "ebony": [
+      "fashion-001",
+      "fashion-011",
+      "fashion-020"
+    ],
+    "elegant": [
+      "fashion-014"
+    ],
+    "everyday": [
+      "fashion-013"
+    ],
+    "fabric": [
+      "fashion-012",
+      "fashion-015",
+      "fashion-017"
+    ],
+    "fashion": [
+      "fashion-001",
+      "fashion-002",
+      "fashion-003",
+      "fashion-004",
+      "fashion-005",
+      "fashion-006",
+      "fashion-007",
+      "fashion-008",
+      "fashion-009",
+      "fashion-010",
+      "fashion-011",
+      "fashion-012",
+      "fashion-013",
+      "fashion-014",
+      "fashion-015",
+      "fashion-016",
+      "fashion-017",
+      "fashion-018",
+      "fashion-019",
+      "fashion-020"
+    ],
+    "faux leather": [
+      "fashion-001",
+      "fashion-005",
+      "fashion-006",
+      "fashion-011"
+    ],
+    "female": [
+      "fashion-016",
+      "fashion-017",
+      "fashion-018",
+      "fashion-019",
+      "fashion-020",
+      "health-010"
+    ],
+    "field": [
+      "kids-017"
+    ],
+    "figure": [
+      "kids-021"
+    ],
+    "fitness": [
+      "health-001",
+      "health-002",
+      "health-003",
+      "health-004",
+      "health-005",
+      "health-006",
+      "health-007",
+      "health-008",
+      "health-009",
+      "health-010"
+    ],
+    "fitness bands": [
+      "health-007"
+    ],
+    "fitness coaching": [
+      "health-009"
+    ],
+    "fitness cycling": [
+      "health-001"
+    ],
+    "fitness dumbbells": [
+      "health-002"
+    ],
+    "fitness group": [
+      "health-003"
+    ],
+    "fitness indoor": [
+      "health-001"
+    ],
+    "fitness jump": [
+      "health-004"
+    ],
+    "fitness kettlebell": [
+      "health-005"
+    ],
+    "fitness man": [
+      "health-006"
+    ],
+    "fitness outdoor": [
+      "health-008"
+    ],
+    "fitness rack": [
+      "health-002"
+    ],
+    "fitness resistance": [
+      "health-007"
+    ],
+    "fitness rope": [
+      "health-004"
+    ],
+    "fitness running": [
+      "health-006"
+    ],
+    "fitness stretching": [
+      "health-008"
+    ],
+    "fitness trainer": [
+      "health-009"
+    ],
+    "fitness woman": [
+      "health-010"
+    ],
+    "fitness workout": [
+      "health-003",
+      "health-005"
+    ],
+    "fitness yoga": [
+      "health-010"
+    ],
+    "flat": [
+      "fashion-009"
+    ],
+    "floor": [
+      "health-005",
+      "kids-004"
+    ],
+    "floral": [
+      "fashion-018"
+    ],
+    "flowers": [
+      "fashion-018"
+    ],
+    "flying": [
+      "kids-030"
+    ],
+    "folds": [
+      "fashion-020"
+    ],
+    "food": [
+      "health-013"
+    ],
+    "footwear": [
+      "fashion-006",
+      "fashion-007",
+      "fashion-008",
+      "fashion-009",
+      "fashion-010"
+    ],
+    "footwear boots": [
+      "fashion-006"
+    ],
+    "footwear flat": [
+      "fashion-009"
+    ],
+    "footwear heels": [
+      "fashion-007"
+    ],
+    "footwear leather": [
+      "fashion-006"
+    ],
+    "footwear loafers": [
+      "fashion-008"
+    ],
+    "footwear sandals": [
+      "fashion-009"
+    ],
+    "footwear sneakers": [
+      "fashion-010"
+    ],
+    "footwear strappy": [
+      "fashion-007"
+    ],
+    "footwear suede": [
+      "fashion-008"
+    ],
+    "footwear white": [
+      "fashion-010"
+    ],
+    "formal": [
+      "fashion-014"
+    ],
+    "fresh": [
+      "health-011"
+    ],
+    "frock": [
+      "fashion-018"
+    ],
+    "fruit": [
+      "health-011"
+    ],
+    "fun": [
+      "kids-005"
+    ],
+    "furnished": [
+      "kids-027"
+    ],
+    "gentleman": [
+      "health-006"
+    ],
+    "genuine leather": [
+      "fashion-001",
+      "fashion-005",
+      "fashion-006",
+      "fashion-011"
+    ],
+    "girl": [
+      "health-010",
+      "kids-001",
+      "kids-002",
+      "kids-003",
+      "kids-004",
+      "kids-005",
+      "kids-006",
+      "kids-007",
+      "kids-008",
+      "kids-009",
+      "kids-010",
+      "kids-011",
+      "kids-012",
+      "kids-013",
+      "kids-014",
+      "kids-015",
+      "kids-016",
+      "kids-017",
+      "kids-018"
+    ],
+    "glass": [
+      "health-017",
+      "kids-031"
+    ],
+    "gold": [
+      "fashion-004"
+    ],
+    "gown": [
+      "fashion-018"
+    ],
+    "grains": [
+      "health-012"
+    ],
+    "gray": [
+      "fashion-015"
+    ],
+    "green": [
+      "health-017"
+    ],
+    "grey": [
+      "fashion-015"
+    ],
+    "group": [
+      "health-003",
+      "kids-019",
+      "kids-020"
+    ],
+    "guy": [
+      "fashion-011",
+      "fashion-012",
+      "fashion-013",
+      "fashion-014",
+      "fashion-015",
+      "health-006"
+    ],
+    "gym": [
+      "health-002",
+      "health-015"
+    ],
+    "halloween": [
+      "kids-005"
+    ],
+    "handbag": [
+      "fashion-002"
+    ],
+    "happy": [
+      "kids-009"
+    ],
+    "hat": [
+      "fashion-001",
+      "fashion-002",
+      "fashion-003",
+      "fashion-004",
+      "fashion-005"
+    ],
+    "health": [
+      "health-001",
+      "health-002",
+      "health-003",
+      "health-004",
+      "health-005",
+      "health-006",
+      "health-007",
+      "health-008",
+      "health-009",
+      "health-010",
+      "health-011",
+      "health-012",
+      "health-013",
+      "health-014",
+      "health-015",
+      "health-016",
+      "health-017",
+      "health-018",
+      "health-019",
+      "health-020"
+    ],
+    "healthy": [
+      "health-012",
+      "health-016"
+    ],
+    "heels": [
+      "fashion-007"
+    ],
+    "helmet": [
+      "kids-002"
+    ],
+    "home": [
+      "health-007"
+    ],
+    "horse": [
+      "kids-034"
+    ],
+    "hydration": [
+      "health-020"
+    ],
+    "indoor": [
+      "health-001",
+      "kids-013"
+    ],
+    "informal": [
+      "fashion-013"
+    ],
+    "ivory": [
+      "fashion-016"
+    ],
+    "jacket": [
+      "fashion-011"
+    ],
+    "jeans": [
+      "fashion-012"
+    ],
+    "jewelry": [
+      "fashion-001",
+      "fashion-002",
+      "fashion-003",
+      "fashion-004",
+      "fashion-005"
+    ],
+    "jump": [
+      "health-004"
+    ],
+    "jumpsuit": [
+      "fashion-019"
+    ],
+    "kettlebell": [
+      "health-005"
+    ],
+    "kicks": [
+      "fashion-010"
+    ],
+    "kid": [
+      "kids-001",
+      "kids-002",
+      "kids-003",
+      "kids-004",
+      "kids-005",
+      "kids-006",
+      "kids-007",
+      "kids-008",
+      "kids-009",
+      "kids-010",
+      "kids-011",
+      "kids-012",
+      "kids-013",
+      "kids-014",
+      "kids-015",
+      "kids-016",
+      "kids-017",
+      "kids-018"
+    ],
+    "kid art": [
+      "kids-010"
+    ],
+    "kid backpack": [
+      "kids-001"
+    ],
+    "kid ball": [
+      "kids-017"
+    ],
+    "kid bed": [
+      "kids-016"
+    ],
+    "kid bicycle": [
+      "kids-002"
+    ],
+    "kid birthday": [
+      "kids-003"
+    ],
+    "kid blocks": [
+      "kids-004"
+    ],
+    "kid book": [
+      "kids-015"
+    ],
+    "kid building": [
+      "kids-004"
+    ],
+    "kid cake": [
+      "kids-003"
+    ],
+    "kid costume": [
+      "kids-005"
+    ],
+    "kid crayons": [
+      "kids-007"
+    ],
+    "kid dancing": [
+      "kids-006"
+    ],
+    "kid dog": [
+      "kids-011"
+    ],
+    "kid drawing": [
+      "kids-007"
+    ],
+    "kid eating": [
+      "kids-008"
+    ],
+    "kid halloween": [
+      "kids-005"
+    ],
+    "kid laughing": [
+      "kids-009"
+    ],
+    "kid living": [
+      "kids-006"
+    ],
+    "kid outdoor": [
+      "kids-012"
+    ],
+    "kid painting": [
+      "kids-010"
+    ],
+    "kid petting": [
+      "kids-011"
+    ],
+    "kid playing": [
+      "kids-012",
+      "kids-013"
+    ],
+    "kid pool": [
+      "kids-018"
+    ],
+    "kid portrait": [
+      "kids-009"
+    ],
+    "kid puzzle": [
+      "kids-014"
+    ],
+    "kid reading": [
+      "kids-015"
+    ],
+    "kid riding": [
+      "kids-002"
+    ],
+    "kid school": [
+      "kids-001"
+    ],
+    "kid sleeping": [
+      "kids-016"
+    ],
+    "kid snack": [
+      "kids-008"
+    ],
+    "kid soccer": [
+      "kids-017"
+    ],
+    "kid solving": [
+      "kids-014"
+    ],
+    "kid swimming": [
+      "kids-018"
+    ],
+    "kid toys": [
+      "kids-013"
+    ],
+    "kids": [
+      "kids-001",
+      "kids-002",
+      "kids-003",
+      "kids-004",
+      "kids-005",
+      "kids-006",
+      "kids-007",
+      "kids-008",
+      "kids-009",
+      "kids-010",
+      "kids-011",
+      "kids-012",
+      "kids-013",
+      "kids-014",
+      "kids-015",
+      "kids-016",
+      "kids-017",
+      "kids-018",
+      "kids-019",
+      "kids-020",
+      "kids-021",
+      "kids-022",
+      "kids-023",
+      "kids-024",
+      "kids-025",
+      "kids-026",
+      "kids-027",
+      "kids-028",
+      "kids-029",
+      "kids-030",
+      "kids-031",
+      "kids-032",
+      "kids-033",
+      "kids-034",
+      "kids-035",
+      "kids-036",
+      "kids-037",
+      "kids-038",
+      "kids-039",
+      "kids-040",
+      "kids-041",
+      "kids-042"
+    ],
+    "kids classroom": [
+      "kids-019"
+    ],
+    "kids group": [
+      "kids-020"
+    ],
+    "kids learning": [
+      "kids-019"
+    ],
+    "kids playground": [
+      "kids-020"
+    ],
+    "kit": [
+      "kids-026"
+    ],
+    "kitchen": [
+      "kids-008",
+      "kids-029"
+    ],
+    "kite": [
+      "kids-030"
+    ],
+    "knit": [
+      "fashion-015",
+      "fashion-017"
+    ],
+    "knitwear": [
+      "fashion-015"
+    ],
+    "lady": [
+      "fashion-016",
+      "fashion-017",
+      "fashion-018",
+      "fashion-019",
+      "fashion-020",
+      "health-010"
+    ],
+    "laughing": [
+      "kids-009"
+    ],
+    "layer": [
+      "fashion-011"
+    ],
+    "layered": [
+      "fashion-020"
+    ],
+    "learning": [
+      "kids-019"
+    ],
+    "leather": [
+      "fashion-001",
+      "fashion-005",
+      "fashion-006",
+      "fashion-011"
+    ],
+    "letters": [
+      "kids-022"
+    ],
+    "light": [
+      "fashion-010",
+      "fashion-013",
+      "fashion-016"
+    ],
+    "lightweight": [
+      "fashion-019"
+    ],
+    "linen": [
+      "fashion-019"
+    ],
+    "living": [
+      "kids-006"
+    ],
+    "loafers": [
+      "fashion-008"
+    ],
+    "luxurious": [
+      "fashion-003",
+      "fashion-016"
+    ],
+    "male": [
+      "fashion-011",
+      "fashion-012",
+      "fashion-013",
+      "fashion-014",
+      "fashion-015",
+      "health-006"
+    ],
+    "man": [
+      "fashion-011",
+      "fashion-012",
+      "fashion-013",
+      "fashion-014",
+      "fashion-015",
+      "health-006"
+    ],
+    "marble": [
+      "kids-031"
+    ],
+    "mat": [
+      "health-010"
+    ],
+    "maxi": [
+      "fashion-020"
+    ],
+    "meal": [
+      "health-013"
+    ],
+    "men": [
+      "fashion-011",
+      "fashion-012",
+      "fashion-013",
+      "fashion-014",
+      "fashion-015",
+      "health-006"
+    ],
+    "mens": [
+      "fashion-011",
+      "fashion-012",
+      "fashion-013",
+      "fashion-014",
+      "fashion-015"
+    ],
+    "mens denim": [
+      "fashion-012"
+    ],
+    "mens jacket": [
+      "fashion-011"
+    ],
+    "mens jeans": [
+      "fashion-012"
+    ],
+    "mens leather": [
+      "fashion-011"
+    ],
+    "mens navy": [
+      "fashion-014"
+    ],
+    "mens shirt": [
+      "fashion-013"
+    ],
+    "mens suit": [
+      "fashion-014"
+    ],
+    "mens sweater": [
+      "fashion-015"
+    ],
+    "mens white": [
+      "fashion-013"
+    ],
+    "mens wool": [
+      "fashion-015"
+    ],
+    "midi": [
+      "fashion-020"
+    ],
+    "mini": [
+      "fashion-020"
+    ],
+    "miniature": [
+      "kids-027"
+    ],
+    "minimal": [
+      "fashion-010"
+    ],
+    "mix": [
+      "health-014"
+    ],
+    "modern": [
+      "fashion-010"
+    ],
+    "natural": [
+      "fashion-019"
+    ],
+    "navy": [
+      "fashion-008",
+      "fashion-014"
+    ],
+    "neutral": [
+      "fashion-015",
+      "fashion-019"
+    ],
+    "nude": [
+      "fashion-007",
+      "fashion-019"
+    ],
+    "nutrition": [
+      "health-011",
+      "health-012",
+      "health-013",
+      "health-014",
+      "health-015",
+      "health-016",
+      "health-017",
+      "health-018",
+      "health-019",
+      "health-020"
+    ],
+    "nutrition bottle": [
+      "health-020"
+    ],
+    "nutrition bowl": [
+      "health-011",
+      "health-012",
+      "health-016"
+    ],
+    "nutrition chopping": [
+      "health-018"
+    ],
+    "nutrition fruit": [
+      "health-011"
+    ],
+    "nutrition grains": [
+      "health-012"
+    ],
+    "nutrition green": [
+      "health-017"
+    ],
+    "nutrition meal": [
+      "health-013"
+    ],
+    "nutrition nuts": [
+      "health-014"
+    ],
+    "nutrition prep": [
+      "health-013"
+    ],
+    "nutrition protein": [
+      "health-015"
+    ],
+    "nutrition salad": [
+      "health-016"
+    ],
+    "nutrition seeds": [
+      "health-014"
+    ],
+    "nutrition shake": [
+      "health-015"
+    ],
+    "nutrition smoothie": [
+      "health-017"
+    ],
+    "nutrition supplements": [
+      "health-019"
+    ],
+    "nutrition vegetables": [
+      "health-018"
+    ],
+    "nutrition vitamins": [
+      "health-019"
+    ],
+    "nutrition water": [
+      "health-020"
+    ],
+    "nuts": [
+      "health-014"
+    ],
+    "off-white": [
+      "fashion-016"
+    ],
+    "office": [
+      "fashion-014"
+    ],
+    "one-piece": [
+      "fashion-019"
+    ],
+    "onyx": [
+      "fashion-001",
+      "fashion-011",
+      "fashion-020"
+    ],
+    "outdoor": [
+      "health-008",
+      "kids-011",
+      "kids-012"
+    ],
+    "outerwear": [
+      "fashion-011",
+      "fashion-017"
+    ],
+    "outfit": [
+      "fashion-018"
+    ],
+    "overcoat": [
+      "fashion-017"
+    ],
+    "painting": [
+      "kids-010"
+    ],
+    "pants": [
+      "fashion-012"
+    ],
+    "park": [
+      "health-008",
+      "kids-012"
+    ],
+    "pattern": [
+      "fashion-018"
+    ],
+    "patterned": [
+      "fashion-003"
+    ],
+    "petting": [
+      "kids-011"
+    ],
+    "pieces": [
+      "kids-032"
+    ],
+    "pile": [
+      "kids-024"
+    ],
+    "plastic": [
+      "kids-029",
+      "kids-039"
+    ],
+    "plate": [
+      "health-013"
+    ],
+    "play": [
+      "kids-026"
+    ],
+    "playground": [
+      "kids-020"
+    ],
+    "playing": [
+      "kids-012",
+      "kids-013"
+    ],
+    "playsuit": [
+      "fashion-019"
+    ],
+    "pleated": [
+      "fashion-020"
+    ],
+    "plush": [
+      "kids-038"
+    ],
+    "pool": [
+      "kids-018"
+    ],
+    "portrait": [
+      "kids-009"
+    ],
+    "prep": [
+      "health-013"
+    ],
+    "pretend": [
+      "kids-026",
+      "kids-039"
+    ],
+    "print": [
+      "fashion-018"
+    ],
+    "professional": [
+      "fashion-014"
+    ],
+    "protein": [
+      "health-015"
+    ],
+    "pullover": [
+      "fashion-015"
+    ],
+    "pumps": [
+      "fashion-007"
+    ],
+    "pure": [
+      "fashion-010",
+      "fashion-013"
+    ],
+    "puzzle": [
+      "kids-014",
+      "kids-032"
+    ],
+    "rabbit": [
+      "kids-037"
+    ],
+    "rack": [
+      "health-002"
+    ],
+    "reading": [
+      "kids-015"
+    ],
+    "red": [
+      "kids-042"
+    ],
+    "relaxed": [
+      "fashion-013"
+    ],
+    "remote": [
+      "kids-025"
+    ],
+    "resistance": [
+      "health-007"
+    ],
+    "riding": [
+      "kids-002"
+    ],
+    "robot": [
+      "kids-033"
+    ],
+    "rocking": [
+      "kids-034"
+    ],
+    "romper": [
+      "fashion-019"
+    ],
+    "room": [
+      "kids-006"
+    ],
+    "rope": [
+      "health-004"
+    ],
+    "rubber": [
+      "kids-035"
+    ],
+    "running": [
+      "health-006"
+    ],
+    "salad": [
+      "health-016"
+    ],
+    "sand": [
+      "fashion-019"
+    ],
+    "sandals": [
+      "fashion-009"
+    ],
+    "satin": [
+      "fashion-003",
+      "fashion-016"
+    ],
+    "scarf": [
+      "fashion-003"
+    ],
+    "school": [
+      "kids-001"
+    ],
+    "seeds": [
+      "health-014"
+    ],
+    "set": [
+      "kids-028",
+      "kids-029",
+      "kids-031",
+      "kids-040"
+    ],
+    "shake": [
+      "health-015"
+    ],
+    "shiny": [
+      "fashion-003",
+      "fashion-016"
+    ],
+    "shirt": [
+      "fashion-013",
+      "fashion-016"
+    ],
+    "shoes": [
+      "fashion-006",
+      "fashion-010"
+    ],
+    "silk": [
+      "fashion-003",
+      "fashion-016"
+    ],
+    "silver": [
+      "fashion-015"
+    ],
+    "simple": [
+      "fashion-010"
+    ],
+    "skin": [
+      "fashion-001",
+      "fashion-005",
+      "fashion-006",
+      "fashion-011"
+    ],
+    "skirt": [
+      "fashion-020"
+    ],
+    "sleeping": [
+      "kids-016"
+    ],
+    "slim": [
+      "fashion-012"
+    ],
+    "smooth": [
+      "fashion-003",
+      "fashion-016"
+    ],
+    "smoothie": [
+      "health-017"
+    ],
+    "snack": [
+      "kids-008"
+    ],
+    "sneakers": [
+      "fashion-010"
+    ],
+    "soccer": [
+      "kids-017"
+    ],
+    "solving": [
+      "kids-014"
+    ],
+    "spin": [
+      "health-001"
+    ],
+    "spinning": [
+      "kids-036"
+    ],
+    "stacking": [
+      "kids-023"
+    ],
+    "stiletto": [
+      "fashion-007"
+    ],
+    "strappy": [
+      "fashion-007"
+    ],
+    "streetwear": [
+      "fashion-013"
+    ],
+    "stretching": [
+      "health-008"
+    ],
+    "structured": [
+      "fashion-020"
+    ],
+    "studio": [
+      "health-003"
+    ],
+    "stuffed": [
+      "kids-037"
+    ],
+    "suede": [
+      "fashion-008"
+    ],
+    "suit": [
+      "fashion-014"
+    ],
+    "summer": [
+      "fashion-018",
+      "kids-018"
+    ],
+    "sunglasses": [
+      "fashion-004"
+    ],
+    "sunny": [
+      "fashion-018",
+      "kids-018",
+      "kids-020"
+    ],
+    "superhero": [
+      "kids-021"
+    ],
+    "supplements": [
+      "health-019"
+    ],
+    "sweater": [
+      "fashion-015"
+    ],
+    "swimming": [
+      "kids-018"
+    ],
+    "table": [
+      "kids-007",
+      "kids-014"
+    ],
+    "tan": [
+      "fashion-002",
+      "fashion-009",
+      "fashion-017",
+      "fashion-019"
+    ],
+    "teddy": [
+      "kids-038"
+    ],
+    "tee": [
+      "fashion-013"
+    ],
+    "toolbox": [
+      "kids-039"
+    ],
+    "top": [
+      "fashion-013",
+      "fashion-016",
+      "kids-036"
+    ],
+    "tote": [
+      "fashion-002"
+    ],
+    "toy": [
+      "kids-021",
+      "kids-022",
+      "kids-023",
+      "kids-024",
+      "kids-025",
+      "kids-026",
+      "kids-027",
+      "kids-028",
+      "kids-029",
+      "kids-030",
+      "kids-031",
+      "kids-032",
+      "kids-033",
+      "kids-034",
+      "kids-035",
+      "kids-036",
+      "kids-037",
+      "kids-038",
+      "kids-039",
+      "kids-040",
+      "kids-041",
+      "kids-042"
+    ],
+    "toy action": [
+      "kids-021"
+    ],
+    "toy alphabet": [
+      "kids-022"
+    ],
+    "toy animal": [
+      "kids-037"
+    ],
+    "toy bear": [
+      "kids-038"
+    ],
+    "toy blocks": [
+      "kids-022",
+      "kids-023"
+    ],
+    "toy bricks": [
+      "kids-024"
+    ],
+    "toy building": [
+      "kids-024"
+    ],
+    "toy car": [
+      "kids-025"
+    ],
+    "toy colorful": [
+      "kids-023",
+      "kids-041"
+    ],
+    "toy doctor": [
+      "kids-026"
+    ],
+    "toy dollhouse": [
+      "kids-027"
+    ],
+    "toy drum": [
+      "kids-028"
+    ],
+    "toy duck": [
+      "kids-035"
+    ],
+    "toy figure": [
+      "kids-021"
+    ],
+    "toy flying": [
+      "kids-030"
+    ],
+    "toy horse": [
+      "kids-034"
+    ],
+    "toy kit": [
+      "kids-026"
+    ],
+    "toy kitchen": [
+      "kids-029"
+    ],
+    "toy kite": [
+      "kids-030"
+    ],
+    "toy marble": [
+      "kids-031"
+    ],
+    "toy miniature": [
+      "kids-027"
+    ],
+    "toy pieces": [
+      "kids-032"
+    ],
+    "toy plastic": [
+      "kids-039"
+    ],
+    "toy puzzle": [
+      "kids-032"
+    ],
+    "toy remote": [
+      "kids-025"
+    ],
+    "toy robot": [
+      "kids-033"
+    ],
+    "toy rocking": [
+      "kids-034"
+    ],
+    "toy rubber": [
+      "kids-035"
+    ],
+    "toy set": [
+      "kids-028",
+      "kids-029",
+      "kids-031",
+      "kids-040"
+    ],
+    "toy spinning": [
+      "kids-036"
+    ],
+    "toy stuffed": [
+      "kids-037"
+    ],
+    "toy teddy": [
+      "kids-038"
+    ],
+    "toy toolbox": [
+      "kids-039"
+    ],
+    "toy top": [
+      "kids-036"
+    ],
+    "toy toy": [
+      "kids-033"
+    ],
+    "toy train": [
+      "kids-040"
+    ],
+    "toy xylophone": [
+      "kids-041"
+    ],
+    "toy yo": [
+      "kids-042"
+    ],
+    "toys": [
+      "kids-013",
+      "kids-021",
+      "kids-022",
+      "kids-023",
+      "kids-024",
+      "kids-025",
+      "kids-026",
+      "kids-027",
+      "kids-028",
+      "kids-029",
+      "kids-030",
+      "kids-031",
+      "kids-032",
+      "kids-033",
+      "kids-034",
+      "kids-035",
+      "kids-036",
+      "kids-037",
+      "kids-038",
+      "kids-039",
+      "kids-040",
+      "kids-041",
+      "kids-042"
+    ],
+    "train": [
+      "kids-040"
+    ],
+    "trainer": [
+      "health-009"
+    ],
+    "trainers": [
+      "fashion-010"
+    ],
+    "treadmill": [
+      "health-006"
+    ],
+    "trench": [
+      "fashion-017"
+    ],
+    "tropical": [
+      "fashion-018",
+      "kids-018"
+    ],
+    "trousers": [
+      "fashion-012"
+    ],
+    "understated": [
+      "fashion-010"
+    ],
+    "vegetables": [
+      "health-018"
+    ],
+    "vitamins": [
+      "health-019"
+    ],
+    "walking": [
+      "kids-001"
+    ],
+    "warm": [
+      "fashion-015",
+      "fashion-017",
+      "fashion-018",
+      "kids-018"
+    ],
+    "warm neutral": [
+      "fashion-017"
+    ],
+    "watch": [
+      "fashion-001",
+      "fashion-002",
+      "fashion-003",
+      "fashion-004",
+      "fashion-005"
+    ],
+    "water": [
+      "health-020"
+    ],
+    "white": [
+      "fashion-010",
+      "fashion-013",
+      "fashion-016"
+    ],
+    "woman": [
+      "fashion-016",
+      "fashion-017",
+      "fashion-018",
+      "fashion-019",
+      "fashion-020",
+      "health-010"
+    ],
+    "women": [
+      "fashion-016",
+      "fashion-017",
+      "fashion-018",
+      "fashion-019",
+      "fashion-020",
+      "health-010"
+    ],
+    "women top": [
+      "fashion-016"
+    ],
+    "womens": [
+      "fashion-016",
+      "fashion-017",
+      "fashion-018",
+      "fashion-019",
+      "fashion-020"
+    ],
+    "womens blouse": [
+      "fashion-016"
+    ],
+    "womens coat": [
+      "fashion-017"
+    ],
+    "womens dress": [
+      "fashion-018"
+    ],
+    "womens floral": [
+      "fashion-018"
+    ],
+    "womens jumpsuit": [
+      "fashion-019"
+    ],
+    "womens linen": [
+      "fashion-019"
+    ],
+    "womens pleated": [
+      "fashion-020"
+    ],
+    "womens silk": [
+      "fashion-016"
+    ],
+    "womens skirt": [
+      "fashion-020"
+    ],
+    "womens wool": [
+      "fashion-017"
+    ],
+    "wooden": [
+      "kids-032",
+      "kids-034",
+      "kids-036",
+      "kids-040",
+      "kids-041"
+    ],
+    "wool": [
+      "fashion-015",
+      "fashion-017"
+    ],
+    "workout": [
+      "health-003",
+      "health-005"
+    ],
+    "xylophone": [
+      "kids-041"
+    ],
+    "yo": [
+      "kids-042"
+    ],
+    "yoga": [
+      "health-010"
+    ],
+    "youth": [
+      "kids-001",
+      "kids-002",
+      "kids-003",
+      "kids-004",
+      "kids-005",
+      "kids-006",
+      "kids-007",
+      "kids-008",
+      "kids-009",
+      "kids-010",
+      "kids-011",
+      "kids-012",
+      "kids-013",
+      "kids-014",
+      "kids-015",
+      "kids-016",
+      "kids-017",
+      "kids-018"
+    ]
+  }
+}

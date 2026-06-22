@@ -1,18 +1,22 @@
 {
   "category": "kids",
   "label": "Kids",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-22",
   "total_images": 42,
   "images": [
     {
       "id": "kids-001",
+      "title": "Kid Backpack — School Walking",
       "object": "Kid Backpack",
       "variant": "school walking",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-backpack-school-walking.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-backpack-school-walking.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 480,
+      "height": 936,
       "size_kb": 49,
       "tags": [
         "kids",
@@ -22,21 +26,40 @@
         "school",
         "walking"
       ],
+      "search_terms": [
+        "activities",
+        "backpack",
+        "boy",
+        "child",
+        "children",
+        "girl",
+        "kid",
+        "kid backpack",
+        "kid school",
+        "kids",
+        "school",
+        "walking",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Backpack — school walking"
+      "description": "Kid Backpack — School Walking"
     },
     {
       "id": "kids-002",
+      "title": "Kid Bicycle — Riding Helmet",
       "object": "Kid Bicycle",
       "variant": "riding helmet",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-bicycle-riding-helmet.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-bicycle-riding-helmet.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 157,
       "tags": [
         "kids",
@@ -46,21 +69,40 @@
         "riding",
         "helmet"
       ],
+      "search_terms": [
+        "activities",
+        "bicycle",
+        "boy",
+        "child",
+        "children",
+        "girl",
+        "helmet",
+        "kid",
+        "kid bicycle",
+        "kid riding",
+        "kids",
+        "riding",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Bicycle — riding helmet"
+      "description": "Kid Bicycle — Riding Helmet"
     },
     {
       "id": "kids-003",
+      "title": "Kid Birthday — Cake Celebration",
       "object": "Kid Birthday",
       "variant": "cake celebration",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-birthday-cake-celebration.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-birthday-cake-celebration.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 138,
       "tags": [
         "kids",
@@ -70,21 +112,40 @@
         "cake",
         "celebration"
       ],
+      "search_terms": [
+        "activities",
+        "birthday",
+        "boy",
+        "cake",
+        "celebration",
+        "child",
+        "children",
+        "girl",
+        "kid",
+        "kid birthday",
+        "kid cake",
+        "kids",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Birthday — cake celebration"
+      "description": "Kid Birthday — Cake Celebration"
     },
     {
       "id": "kids-004",
+      "title": "Kid Building — Blocks Floor",
       "object": "Kid Building",
       "variant": "blocks floor",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-building-blocks-floor.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-building-blocks-floor.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 145,
       "tags": [
         "kids",
@@ -94,21 +155,40 @@
         "blocks",
         "floor"
       ],
+      "search_terms": [
+        "activities",
+        "blocks",
+        "boy",
+        "building",
+        "child",
+        "children",
+        "floor",
+        "girl",
+        "kid",
+        "kid blocks",
+        "kid building",
+        "kids",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Building — blocks floor"
+      "description": "Kid Building — Blocks Floor"
     },
     {
       "id": "kids-005",
+      "title": "Kid Costume — Halloween Fun",
       "object": "Kid Costume",
       "variant": "halloween fun",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-costume-halloween-fun.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-costume-halloween-fun.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 579,
+      "height": 1024,
       "size_kb": 64,
       "tags": [
         "kids",
@@ -118,21 +198,40 @@
         "halloween",
         "fun"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "costume",
+        "fun",
+        "girl",
+        "halloween",
+        "kid",
+        "kid costume",
+        "kid halloween",
+        "kids",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Costume — halloween fun"
+      "description": "Kid Costume — Halloween Fun"
     },
     {
       "id": "kids-006",
+      "title": "Kid Dancing — Living Room",
       "object": "Kid Dancing",
       "variant": "living room",
       "subcategory": "activities",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-dancing-living-room.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-dancing-living-room.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 720,
+      "height": 810,
       "size_kb": 83,
       "tags": [
         "kids",
@@ -142,21 +241,40 @@
         "living",
         "room"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "dancing",
+        "girl",
+        "kid",
+        "kid dancing",
+        "kid living",
+        "kids",
+        "living",
+        "room",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Dancing — living room"
+      "description": "Kid Dancing — Living Room"
     },
     {
       "id": "kids-007",
+      "title": "Kid Drawing — Crayons Table",
       "object": "Kid Drawing",
       "variant": "crayons table",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-drawing-crayons-table.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-drawing-crayons-table.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 115,
       "tags": [
         "kids",
@@ -166,21 +284,40 @@
         "crayons",
         "table"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "crayons",
+        "drawing",
+        "girl",
+        "kid",
+        "kid crayons",
+        "kid drawing",
+        "kids",
+        "table",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Drawing — crayons table"
+      "description": "Kid Drawing — Crayons Table"
     },
     {
       "id": "kids-008",
+      "title": "Kid Eating — Snack Kitchen",
       "object": "Kid Eating",
       "variant": "snack kitchen",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-eating-snack-kitchen.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-eating-snack-kitchen.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 720,
+      "height": 1080,
       "size_kb": 90,
       "tags": [
         "kids",
@@ -190,21 +327,40 @@
         "snack",
         "kitchen"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "eating",
+        "girl",
+        "kid",
+        "kid eating",
+        "kid snack",
+        "kids",
+        "kitchen",
+        "snack",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Eating — snack kitchen"
+      "description": "Kid Eating — Snack Kitchen"
     },
     {
       "id": "kids-009",
+      "title": "Kid Laughing — Portrait Happy",
       "object": "Kid Laughing",
       "variant": "portrait happy",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-laughing-portrait-happy.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-laughing-portrait-happy.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 114,
       "tags": [
         "kids",
@@ -214,21 +370,40 @@
         "portrait",
         "happy"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "girl",
+        "happy",
+        "kid",
+        "kid laughing",
+        "kid portrait",
+        "kids",
+        "laughing",
+        "portrait",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Laughing — portrait happy"
+      "description": "Kid Laughing — Portrait Happy"
     },
     {
       "id": "kids-010",
+      "title": "Kid Painting — Art Class",
       "object": "Kid Painting",
       "variant": "art class",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-painting-art-class.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-painting-art-class.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1349,
       "size_kb": 134,
       "tags": [
         "kids",
@@ -238,21 +413,40 @@
         "art",
         "class"
       ],
+      "search_terms": [
+        "activities",
+        "art",
+        "boy",
+        "child",
+        "children",
+        "class",
+        "girl",
+        "kid",
+        "kid art",
+        "kid painting",
+        "kids",
+        "painting",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Painting — art class"
+      "description": "Kid Painting — Art Class"
     },
     {
       "id": "kids-011",
+      "title": "Kid Petting — Dog Outdoor",
       "object": "Kid Petting",
       "variant": "dog outdoor",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-petting-dog-outdoor.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-petting-dog-outdoor.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 77,
       "tags": [
         "kids",
@@ -262,21 +456,40 @@
         "dog",
         "outdoor"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "dog",
+        "girl",
+        "kid",
+        "kid dog",
+        "kid petting",
+        "kids",
+        "outdoor",
+        "petting",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Petting — dog outdoor"
+      "description": "Kid Petting — Dog Outdoor"
     },
     {
       "id": "kids-012",
+      "title": "Kid Playing — Outdoor Park",
       "object": "Kid Playing",
       "variant": "outdoor park",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-playing-outdoor-park.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-playing-outdoor-park.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1312,
       "size_kb": 124,
       "tags": [
         "kids",
@@ -286,21 +499,40 @@
         "outdoor",
         "park"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "girl",
+        "kid",
+        "kid outdoor",
+        "kid playing",
+        "kids",
+        "outdoor",
+        "park",
+        "playing",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Playing — outdoor park"
+      "description": "Kid Playing — Outdoor Park"
     },
     {
       "id": "kids-013",
+      "title": "Kid Playing — Toys Indoor",
       "object": "Kid Playing",
       "variant": "toys indoor",
       "subcategory": "activities",
+      "orientation": "landscape",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-playing-toys-indoor.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-playing-toys-indoor.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 720,
+      "height": 480,
       "size_kb": 61,
       "tags": [
         "kids",
@@ -310,21 +542,40 @@
         "toys",
         "indoor"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "girl",
+        "indoor",
+        "kid",
+        "kid playing",
+        "kid toys",
+        "kids",
+        "playing",
+        "toys",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Playing — toys indoor"
+      "description": "Kid Playing — Toys Indoor"
     },
     {
       "id": "kids-014",
+      "title": "Kid Puzzle — Solving Table",
       "object": "Kid Puzzle",
       "variant": "solving table",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-puzzle-solving-table.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-puzzle-solving-table.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 88,
       "tags": [
         "kids",
@@ -334,21 +585,40 @@
         "solving",
         "table"
       ],
+      "search_terms": [
+        "activities",
+        "boy",
+        "child",
+        "children",
+        "girl",
+        "kid",
+        "kid puzzle",
+        "kid solving",
+        "kids",
+        "puzzle",
+        "solving",
+        "table",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Puzzle — solving table"
+      "description": "Kid Puzzle — Solving Table"
     },
     {
       "id": "kids-015",
+      "title": "Kid Reading — Book Bedroom",
       "object": "Kid Reading",
       "variant": "book bedroom",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-reading-book-bedroom.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-reading-book-bedroom.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1308,
       "size_kb": 127,
       "tags": [
         "kids",
@@ -358,21 +628,40 @@
         "book",
         "bedroom"
       ],
+      "search_terms": [
+        "activities",
+        "bedroom",
+        "book",
+        "boy",
+        "child",
+        "children",
+        "girl",
+        "kid",
+        "kid book",
+        "kid reading",
+        "kids",
+        "reading",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Reading — book bedroom"
+      "description": "Kid Reading — Book Bedroom"
     },
     {
       "id": "kids-016",
+      "title": "Kid Sleeping — Bed Cozy",
       "object": "Kid Sleeping",
       "variant": "bed cozy",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-sleeping-bed-cozy.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-sleeping-bed-cozy.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 68,
       "tags": [
         "kids",
@@ -382,21 +671,40 @@
         "bed",
         "cozy"
       ],
+      "search_terms": [
+        "activities",
+        "bed",
+        "boy",
+        "child",
+        "children",
+        "cozy",
+        "girl",
+        "kid",
+        "kid bed",
+        "kid sleeping",
+        "kids",
+        "sleeping",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Sleeping — bed cozy"
+      "description": "Kid Sleeping — Bed Cozy"
     },
     {
       "id": "kids-017",
+      "title": "Kid Soccer — Ball Field",
       "object": "Kid Soccer",
       "variant": "ball field",
       "subcategory": "activities",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-soccer-ball-field.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-soccer-ball-field.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 92,
       "tags": [
         "kids",
@@ -406,21 +714,40 @@
         "ball",
         "field"
       ],
+      "search_terms": [
+        "activities",
+        "ball",
+        "boy",
+        "child",
+        "children",
+        "field",
+        "girl",
+        "kid",
+        "kid ball",
+        "kid soccer",
+        "kids",
+        "soccer",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Soccer — ball field"
+      "description": "Kid Soccer — Ball Field"
     },
     {
       "id": "kids-018",
+      "title": "Kid Swimming — Pool Summer",
       "object": "Kid Swimming",
       "variant": "pool summer",
       "subcategory": "activities",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/activities/kid-swimming-pool-summer.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kid-swimming-pool-summer.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1313,
       "size_kb": 155,
       "tags": [
         "kids",
@@ -430,21 +757,45 @@
         "pool",
         "summer"
       ],
+      "search_terms": [
+        "activities",
+        "beach",
+        "boy",
+        "bright",
+        "child",
+        "children",
+        "girl",
+        "kid",
+        "kid pool",
+        "kid swimming",
+        "kids",
+        "pool",
+        "summer",
+        "sunny",
+        "swimming",
+        "tropical",
+        "warm",
+        "youth"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kid Swimming — pool summer"
+      "description": "Kid Swimming — Pool Summer"
     },
     {
       "id": "kids-019",
+      "title": "Kids Classroom — Learning Group",
       "object": "Kids Classroom",
       "variant": "learning group",
       "subcategory": "activities",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/activities/kids-classroom-learning-group.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kids-classroom-learning-group.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 512,
+      "height": 512,
       "size_kb": 72,
       "tags": [
         "kids",
@@ -453,21 +804,34 @@
         "learning",
         "group"
       ],
+      "search_terms": [
+        "activities",
+        "classroom",
+        "group",
+        "kids",
+        "kids classroom",
+        "kids learning",
+        "learning"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kids Classroom — learning group"
+      "description": "Kids Classroom — Learning Group"
     },
     {
       "id": "kids-020",
+      "title": "Kids Group — Playground Sunny",
       "object": "Kids Group",
       "variant": "playground sunny",
       "subcategory": "activities",
+      "orientation": "landscape",
+      "style": "photorealistic",
       "file": "images/kids/activities/kids-group-playground-sunny.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/activities/kids-group-playground-sunny.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 720,
+      "height": 543,
       "size_kb": 77,
       "tags": [
         "kids",
@@ -476,21 +840,34 @@
         "playground",
         "sunny"
       ],
+      "search_terms": [
+        "activities",
+        "group",
+        "kids",
+        "kids group",
+        "kids playground",
+        "playground",
+        "sunny"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Kids Group — playground sunny"
+      "description": "Kids Group — Playground Sunny"
     },
     {
       "id": "kids-021",
+      "title": "Toy Action — Figure Superhero",
       "object": "Toy Action",
       "variant": "figure superhero",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-action-figure-superhero.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-action-figure-superhero.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 93,
       "tags": [
         "kids",
@@ -500,21 +877,35 @@
         "figure",
         "superhero"
       ],
+      "search_terms": [
+        "action",
+        "figure",
+        "kids",
+        "superhero",
+        "toy",
+        "toy action",
+        "toy figure",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Action — figure superhero"
+      "description": "Toy Action — Figure Superhero"
     },
     {
       "id": "kids-022",
+      "title": "Toy Blocks — Alphabet Letters",
       "object": "Toy Blocks",
       "variant": "alphabet letters",
       "subcategory": "toys",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-blocks-alphabet-letters.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-blocks-alphabet-letters.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 124,
       "tags": [
         "kids",
@@ -524,21 +915,35 @@
         "alphabet",
         "letters"
       ],
+      "search_terms": [
+        "alphabet",
+        "blocks",
+        "kids",
+        "letters",
+        "toy",
+        "toy alphabet",
+        "toy blocks",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Blocks — alphabet letters"
+      "description": "Toy Blocks — Alphabet Letters"
     },
     {
       "id": "kids-023",
+      "title": "Toy Blocks — Colorful Stacking",
       "object": "Toy Blocks",
       "variant": "colorful stacking",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-blocks-colorful-stacking.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-blocks-colorful-stacking.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 600,
+      "height": 720,
       "size_kb": 39,
       "tags": [
         "kids",
@@ -548,21 +953,35 @@
         "colorful",
         "stacking"
       ],
+      "search_terms": [
+        "blocks",
+        "colorful",
+        "kids",
+        "stacking",
+        "toy",
+        "toy blocks",
+        "toy colorful",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Blocks — colorful stacking"
+      "description": "Toy Blocks — Colorful Stacking"
     },
     {
       "id": "kids-024",
+      "title": "Toy Building — Bricks Pile",
       "object": "Toy Building",
       "variant": "bricks pile",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-building-bricks-pile.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-building-bricks-pile.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 109,
       "tags": [
         "kids",
@@ -572,21 +991,35 @@
         "bricks",
         "pile"
       ],
+      "search_terms": [
+        "bricks",
+        "building",
+        "kids",
+        "pile",
+        "toy",
+        "toy bricks",
+        "toy building",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Building — bricks pile"
+      "description": "Toy Building — Bricks Pile"
     },
     {
       "id": "kids-025",
+      "title": "Toy Car — Remote Control",
       "object": "Toy Car",
       "variant": "remote control",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-car-remote-control.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-car-remote-control.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 500,
+      "height": 500,
       "size_kb": 34,
       "tags": [
         "kids",
@@ -596,21 +1029,35 @@
         "remote",
         "control"
       ],
+      "search_terms": [
+        "car",
+        "control",
+        "kids",
+        "remote",
+        "toy",
+        "toy car",
+        "toy remote",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Car — remote control"
+      "description": "Toy Car — Remote Control"
     },
     {
       "id": "kids-026",
+      "title": "Toy Doctor — Kit Pretend Play",
       "object": "Toy Doctor",
       "variant": "kit pretend play",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-doctor-kit-pretend-play.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-doctor-kit-pretend-play.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 679,
+      "height": 684,
       "size_kb": 81,
       "tags": [
         "kids",
@@ -621,21 +1068,36 @@
         "pretend",
         "play"
       ],
+      "search_terms": [
+        "doctor",
+        "kids",
+        "kit",
+        "play",
+        "pretend",
+        "toy",
+        "toy doctor",
+        "toy kit",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Doctor — kit pretend play"
+      "description": "Toy Doctor — Kit Pretend Play"
     },
     {
       "id": "kids-027",
+      "title": "Toy Dollhouse — Miniature Furnished",
       "object": "Toy Dollhouse",
       "variant": "miniature furnished",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-dollhouse-miniature-furnished.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-dollhouse-miniature-furnished.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 770,
       "size_kb": 87,
       "tags": [
         "kids",
@@ -645,21 +1107,35 @@
         "miniature",
         "furnished"
       ],
+      "search_terms": [
+        "dollhouse",
+        "furnished",
+        "kids",
+        "miniature",
+        "toy",
+        "toy dollhouse",
+        "toy miniature",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Dollhouse — miniature furnished"
+      "description": "Toy Dollhouse — Miniature Furnished"
     },
     {
       "id": "kids-028",
+      "title": "Toy Drum — Set Kids",
       "object": "Toy Drum",
       "variant": "set kids",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-drum-set-kids.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-drum-set-kids.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 63,
       "tags": [
         "toy",
@@ -668,21 +1144,34 @@
         "set",
         "kids"
       ],
+      "search_terms": [
+        "drum",
+        "kids",
+        "set",
+        "toy",
+        "toy drum",
+        "toy set",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Drum — set kids"
+      "description": "Toy Drum — Set Kids"
     },
     {
       "id": "kids-029",
+      "title": "Toy Kitchen — Set Plastic",
       "object": "Toy Kitchen",
       "variant": "set plastic",
       "subcategory": "toys",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-kitchen-set-plastic.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-kitchen-set-plastic.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 980,
       "size_kb": 92,
       "tags": [
         "kids",
@@ -692,21 +1181,35 @@
         "set",
         "plastic"
       ],
+      "search_terms": [
+        "kids",
+        "kitchen",
+        "plastic",
+        "set",
+        "toy",
+        "toy kitchen",
+        "toy set",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Kitchen — set plastic"
+      "description": "Toy Kitchen — Set Plastic"
     },
     {
       "id": "kids-030",
+      "title": "Toy Kite — Flying Colorful",
       "object": "Toy Kite",
       "variant": "flying colorful",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-kite-flying-colorful.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-kite-flying-colorful.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 640,
+      "height": 640,
       "size_kb": 25,
       "tags": [
         "kids",
@@ -716,21 +1219,35 @@
         "flying",
         "colorful"
       ],
+      "search_terms": [
+        "colorful",
+        "flying",
+        "kids",
+        "kite",
+        "toy",
+        "toy flying",
+        "toy kite",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Kite — flying colorful"
+      "description": "Toy Kite — Flying Colorful"
     },
     {
       "id": "kids-031",
+      "title": "Toy Marble — Set Glass",
       "object": "Toy Marble",
       "variant": "set glass",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-marble-set-glass.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-marble-set-glass.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 74,
       "tags": [
         "kids",
@@ -740,21 +1257,35 @@
         "set",
         "glass"
       ],
+      "search_terms": [
+        "glass",
+        "kids",
+        "marble",
+        "set",
+        "toy",
+        "toy marble",
+        "toy set",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Marble — set glass"
+      "description": "Toy Marble — Set Glass"
     },
     {
       "id": "kids-032",
+      "title": "Toy Puzzle — Pieces Wooden",
       "object": "Toy Puzzle",
       "variant": "pieces wooden",
       "subcategory": "toys",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-puzzle-pieces-wooden.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-puzzle-pieces-wooden.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 67,
       "tags": [
         "kids",
@@ -764,21 +1295,35 @@
         "pieces",
         "wooden"
       ],
+      "search_terms": [
+        "kids",
+        "pieces",
+        "puzzle",
+        "toy",
+        "toy pieces",
+        "toy puzzle",
+        "toys",
+        "wooden"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Puzzle — pieces wooden"
+      "description": "Toy Puzzle — Pieces Wooden"
     },
     {
       "id": "kids-033",
+      "title": "Toy Robot — Toy Blue",
       "object": "Toy Robot",
       "variant": "toy blue",
       "subcategory": "toys",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-robot-toy-blue.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-robot-toy-blue.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 672,
+      "height": 1024,
       "size_kb": 45,
       "tags": [
         "kids",
@@ -788,21 +1333,34 @@
         "toy",
         "blue"
       ],
+      "search_terms": [
+        "blue",
+        "kids",
+        "robot",
+        "toy",
+        "toy robot",
+        "toy toy",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Robot — toy blue"
+      "description": "Toy Robot — Toy Blue"
     },
     {
       "id": "kids-034",
+      "title": "Toy Rocking — Horse Wooden",
       "object": "Toy Rocking",
       "variant": "horse wooden",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-rocking-horse-wooden.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-rocking-horse-wooden.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 48,
       "tags": [
         "kids",
@@ -812,21 +1370,35 @@
         "horse",
         "wooden"
       ],
+      "search_terms": [
+        "horse",
+        "kids",
+        "rocking",
+        "toy",
+        "toy horse",
+        "toy rocking",
+        "toys",
+        "wooden"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Rocking — horse wooden"
+      "description": "Toy Rocking — Horse Wooden"
     },
     {
       "id": "kids-035",
+      "title": "Toy Rubber — Duck Bath",
       "object": "Toy Rubber",
       "variant": "duck bath",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-rubber-duck-bath.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-rubber-duck-bath.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 640,
+      "height": 640,
       "size_kb": 25,
       "tags": [
         "kids",
@@ -836,21 +1408,35 @@
         "duck",
         "bath"
       ],
+      "search_terms": [
+        "bath",
+        "duck",
+        "kids",
+        "rubber",
+        "toy",
+        "toy duck",
+        "toy rubber",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Rubber — duck bath"
+      "description": "Toy Rubber — Duck Bath"
     },
     {
       "id": "kids-036",
+      "title": "Toy Spinning — Top Wooden",
       "object": "Toy Spinning",
       "variant": "top wooden",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-spinning-top-wooden.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-spinning-top-wooden.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 31,
       "tags": [
         "kids",
@@ -860,21 +1446,35 @@
         "top",
         "wooden"
       ],
+      "search_terms": [
+        "kids",
+        "spinning",
+        "top",
+        "toy",
+        "toy spinning",
+        "toy top",
+        "toys",
+        "wooden"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Spinning — top wooden"
+      "description": "Toy Spinning — Top Wooden"
     },
     {
       "id": "kids-037",
+      "title": "Toy Stuffed — Animal Rabbit",
       "object": "Toy Stuffed",
       "variant": "animal rabbit",
       "subcategory": "toys",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-stuffed-animal-rabbit.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-stuffed-animal-rabbit.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 981,
       "size_kb": 43,
       "tags": [
         "kids",
@@ -884,21 +1484,35 @@
         "animal",
         "rabbit"
       ],
+      "search_terms": [
+        "animal",
+        "kids",
+        "rabbit",
+        "stuffed",
+        "toy",
+        "toy animal",
+        "toy stuffed",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Stuffed — animal rabbit"
+      "description": "Toy Stuffed — Animal Rabbit"
     },
     {
       "id": "kids-038",
+      "title": "Toy Teddy — Bear Brown Plush",
       "object": "Toy Teddy",
       "variant": "bear brown plush",
       "subcategory": "toys",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-teddy-bear-brown-plush.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-teddy-bear-brown-plush.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 931,
       "size_kb": 156,
       "tags": [
         "kids",
@@ -909,21 +1523,36 @@
         "brown",
         "plush"
       ],
+      "search_terms": [
+        "bear",
+        "brown",
+        "kids",
+        "plush",
+        "teddy",
+        "toy",
+        "toy bear",
+        "toy teddy",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Teddy — bear brown plush"
+      "description": "Toy Teddy — Bear Brown Plush"
     },
     {
       "id": "kids-039",
+      "title": "Toy Toolbox — Plastic Pretend",
       "object": "Toy Toolbox",
       "variant": "plastic pretend",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-toolbox-plastic-pretend.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-toolbox-plastic-pretend.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 80,
       "tags": [
         "kids",
@@ -933,21 +1562,35 @@
         "plastic",
         "pretend"
       ],
+      "search_terms": [
+        "kids",
+        "plastic",
+        "pretend",
+        "toolbox",
+        "toy",
+        "toy plastic",
+        "toy toolbox",
+        "toys"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Toolbox — plastic pretend"
+      "description": "Toy Toolbox — Plastic Pretend"
     },
     {
       "id": "kids-040",
+      "title": "Toy Train — Set Wooden",
       "object": "Toy Train",
       "variant": "set wooden",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-train-set-wooden.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-train-set-wooden.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 883,
       "size_kb": 120,
       "tags": [
         "kids",
@@ -957,21 +1600,35 @@
         "set",
         "wooden"
       ],
+      "search_terms": [
+        "kids",
+        "set",
+        "toy",
+        "toy set",
+        "toy train",
+        "toys",
+        "train",
+        "wooden"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Train — set wooden"
+      "description": "Toy Train — Set Wooden"
     },
     {
       "id": "kids-041",
+      "title": "Toy Xylophone — Colorful Wooden",
       "object": "Toy Xylophone",
       "variant": "colorful wooden",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-xylophone-colorful-wooden.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-xylophone-colorful-wooden.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 71,
       "tags": [
         "kids",
@@ -981,21 +1638,35 @@
         "colorful",
         "wooden"
       ],
+      "search_terms": [
+        "colorful",
+        "kids",
+        "toy",
+        "toy colorful",
+        "toy xylophone",
+        "toys",
+        "wooden",
+        "xylophone"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Xylophone — colorful wooden"
+      "description": "Toy Xylophone — Colorful Wooden"
     },
     {
       "id": "kids-042",
+      "title": "Toy Yo — Yo Classic Red",
       "object": "Toy Yo",
       "variant": "yo classic red",
       "subcategory": "toys",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/kids/toys/toy-yo-yo-classic-red.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/kids/toys/toy-yo-yo-classic-red.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 562,
+      "height": 640,
       "size_kb": 26,
       "tags": [
         "kids",
@@ -1006,11 +1677,20 @@
         "classic",
         "red"
       ],
+      "search_terms": [
+        "classic",
+        "kids",
+        "red",
+        "toy",
+        "toy yo",
+        "toys",
+        "yo"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Toy Yo — yo classic red"
+      "description": "Toy Yo — Yo Classic Red"
     }
   ]
 }

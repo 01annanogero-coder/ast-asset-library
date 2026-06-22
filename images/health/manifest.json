@@ -1,18 +1,22 @@
 {
   "category": "health",
   "label": "Health & Wellness",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-22",
   "total_images": 20,
   "images": [
     {
       "id": "health-001",
+      "title": "Fitness Cycling — Indoor Spin",
       "object": "Fitness Cycling",
       "variant": "indoor spin",
       "subcategory": "fitness",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-cycling-indoor-spin.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-cycling-indoor-spin.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 124,
       "tags": [
         "health",
@@ -21,21 +25,34 @@
         "indoor",
         "spin"
       ],
+      "search_terms": [
+        "cycling",
+        "fitness",
+        "fitness cycling",
+        "fitness indoor",
+        "health",
+        "indoor",
+        "spin"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Cycling — indoor spin"
+      "description": "Fitness Cycling — Indoor Spin"
     },
     {
       "id": "health-002",
+      "title": "Fitness Dumbbells — Rack Gym",
       "object": "Fitness Dumbbells",
       "variant": "rack gym",
       "subcategory": "fitness",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-dumbbells-rack-gym.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-dumbbells-rack-gym.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 35,
       "tags": [
         "health",
@@ -44,21 +61,34 @@
         "rack",
         "gym"
       ],
+      "search_terms": [
+        "dumbbells",
+        "fitness",
+        "fitness dumbbells",
+        "fitness rack",
+        "gym",
+        "health",
+        "rack"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Dumbbells — rack gym"
+      "description": "Fitness Dumbbells — Rack Gym"
     },
     {
       "id": "health-003",
+      "title": "Fitness Group — Workout Studio",
       "object": "Fitness Group",
       "variant": "workout studio",
       "subcategory": "fitness",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-group-workout-studio.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-group-workout-studio.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 100,
       "tags": [
         "health",
@@ -67,21 +97,34 @@
         "workout",
         "studio"
       ],
+      "search_terms": [
+        "fitness",
+        "fitness group",
+        "fitness workout",
+        "group",
+        "health",
+        "studio",
+        "workout"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Group — workout studio"
+      "description": "Fitness Group — Workout Studio"
     },
     {
       "id": "health-004",
+      "title": "Fitness Jump — Rope Cardio",
       "object": "Fitness Jump",
       "variant": "rope cardio",
       "subcategory": "fitness",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-jump-rope-cardio.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-jump-rope-cardio.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1349,
       "size_kb": 107,
       "tags": [
         "health",
@@ -90,21 +133,34 @@
         "rope",
         "cardio"
       ],
+      "search_terms": [
+        "cardio",
+        "fitness",
+        "fitness jump",
+        "fitness rope",
+        "health",
+        "jump",
+        "rope"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Jump — rope cardio"
+      "description": "Fitness Jump — Rope Cardio"
     },
     {
       "id": "health-005",
+      "title": "Fitness Kettlebell — Workout Floor",
       "object": "Fitness Kettlebell",
       "variant": "workout floor",
       "subcategory": "fitness",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-kettlebell-workout-floor.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-kettlebell-workout-floor.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 728,
+      "height": 1092,
       "size_kb": 57,
       "tags": [
         "health",
@@ -113,21 +169,34 @@
         "workout",
         "floor"
       ],
+      "search_terms": [
+        "fitness",
+        "fitness kettlebell",
+        "fitness workout",
+        "floor",
+        "health",
+        "kettlebell",
+        "workout"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Kettlebell — workout floor"
+      "description": "Fitness Kettlebell — Workout Floor"
     },
     {
       "id": "health-006",
+      "title": "Fitness Man — Running Treadmill",
       "object": "Fitness Man",
       "variant": "running treadmill",
       "subcategory": "fitness",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-man-running-treadmill.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-man-running-treadmill.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 384,
+      "height": 480,
       "size_kb": 38,
       "tags": [
         "health",
@@ -136,21 +205,38 @@
         "running",
         "treadmill"
       ],
+      "search_terms": [
+        "fitness",
+        "fitness man",
+        "fitness running",
+        "gentleman",
+        "guy",
+        "health",
+        "male",
+        "man",
+        "men",
+        "running",
+        "treadmill"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Man — running treadmill"
+      "description": "Fitness Man — Running Treadmill"
     },
     {
       "id": "health-007",
+      "title": "Fitness Resistance — Bands Home",
       "object": "Fitness Resistance",
       "variant": "bands home",
       "subcategory": "fitness",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-resistance-bands-home.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-resistance-bands-home.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 85,
       "tags": [
         "health",
@@ -159,21 +245,34 @@
         "bands",
         "home"
       ],
+      "search_terms": [
+        "bands",
+        "fitness",
+        "fitness bands",
+        "fitness resistance",
+        "health",
+        "home",
+        "resistance"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Resistance — bands home"
+      "description": "Fitness Resistance — Bands Home"
     },
     {
       "id": "health-008",
+      "title": "Fitness Stretching — Outdoor Park",
       "object": "Fitness Stretching",
       "variant": "outdoor park",
       "subcategory": "fitness",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-stretching-outdoor-park.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-stretching-outdoor-park.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 720,
+      "height": 720,
       "size_kb": 70,
       "tags": [
         "health",
@@ -182,21 +281,34 @@
         "outdoor",
         "park"
       ],
+      "search_terms": [
+        "fitness",
+        "fitness outdoor",
+        "fitness stretching",
+        "health",
+        "outdoor",
+        "park",
+        "stretching"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Stretching — outdoor park"
+      "description": "Fitness Stretching — Outdoor Park"
     },
     {
       "id": "health-009",
+      "title": "Fitness Trainer — Coaching Client",
       "object": "Fitness Trainer",
       "variant": "coaching client",
       "subcategory": "fitness",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-trainer-coaching-client.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-trainer-coaching-client.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 735,
+      "height": 1103,
       "size_kb": 82,
       "tags": [
         "health",
@@ -205,21 +317,34 @@
         "coaching",
         "client"
       ],
+      "search_terms": [
+        "client",
+        "coaching",
+        "fitness",
+        "fitness coaching",
+        "fitness trainer",
+        "health",
+        "trainer"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Trainer — coaching client"
+      "description": "Fitness Trainer — Coaching Client"
     },
     {
       "id": "health-010",
+      "title": "Fitness Woman — Yoga Mat",
       "object": "Fitness Woman",
       "variant": "yoga mat",
       "subcategory": "fitness",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/fitness/fitness-woman-yoga-mat.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/fitness/fitness-woman-yoga-mat.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1078,
       "size_kb": 49,
       "tags": [
         "health",
@@ -228,21 +353,38 @@
         "yoga",
         "mat"
       ],
+      "search_terms": [
+        "female",
+        "fitness",
+        "fitness woman",
+        "fitness yoga",
+        "girl",
+        "health",
+        "lady",
+        "mat",
+        "woman",
+        "women",
+        "yoga"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Fitness Woman — yoga mat"
+      "description": "Fitness Woman — Yoga Mat"
     },
     {
       "id": "health-011",
+      "title": "Nutrition Fruit — Bowl Fresh",
       "object": "Nutrition Fruit",
       "variant": "bowl fresh",
       "subcategory": "nutrition",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-fruit-bowl-fresh.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-fruit-bowl-fresh.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 151,
       "tags": [
         "health",
@@ -251,21 +393,34 @@
         "bowl",
         "fresh"
       ],
+      "search_terms": [
+        "bowl",
+        "fresh",
+        "fruit",
+        "health",
+        "nutrition",
+        "nutrition bowl",
+        "nutrition fruit"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Fruit — bowl fresh"
+      "description": "Nutrition Fruit — Bowl Fresh"
     },
     {
       "id": "health-012",
+      "title": "Nutrition Grains — Bowl Healthy",
       "object": "Nutrition Grains",
       "variant": "bowl healthy",
       "subcategory": "nutrition",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-grains-bowl-healthy.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-grains-bowl-healthy.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 736,
       "size_kb": 121,
       "tags": [
         "health",
@@ -274,21 +429,34 @@
         "bowl",
         "healthy"
       ],
+      "search_terms": [
+        "bowl",
+        "grains",
+        "health",
+        "healthy",
+        "nutrition",
+        "nutrition bowl",
+        "nutrition grains"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Grains — bowl healthy"
+      "description": "Nutrition Grains — Bowl Healthy"
     },
     {
       "id": "health-013",
+      "title": "Nutrition Meal — Prep Containers",
       "object": "Nutrition Meal",
       "variant": "prep containers",
       "subcategory": "nutrition",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-meal-prep-containers.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-meal-prep-containers.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1104,
       "size_kb": 138,
       "tags": [
         "health",
@@ -297,21 +465,38 @@
         "prep",
         "containers"
       ],
+      "search_terms": [
+        "containers",
+        "cuisine",
+        "dish",
+        "food",
+        "health",
+        "meal",
+        "nutrition",
+        "nutrition meal",
+        "nutrition prep",
+        "plate",
+        "prep"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Meal — prep containers"
+      "description": "Nutrition Meal — Prep Containers"
     },
     {
       "id": "health-014",
+      "title": "Nutrition Nuts — Seeds Mix",
       "object": "Nutrition Nuts",
       "variant": "seeds mix",
       "subcategory": "nutrition",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-nuts-seeds-mix.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-nuts-seeds-mix.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 981,
       "size_kb": 100,
       "tags": [
         "health",
@@ -320,21 +505,34 @@
         "seeds",
         "mix"
       ],
+      "search_terms": [
+        "health",
+        "mix",
+        "nutrition",
+        "nutrition nuts",
+        "nutrition seeds",
+        "nuts",
+        "seeds"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Nuts — seeds mix"
+      "description": "Nutrition Nuts — Seeds Mix"
     },
     {
       "id": "health-015",
+      "title": "Nutrition Protein — Shake Gym",
       "object": "Nutrition Protein",
       "variant": "shake gym",
       "subcategory": "nutrition",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-protein-shake-gym.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-protein-shake-gym.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 675,
+      "height": 1200,
       "size_kb": 72,
       "tags": [
         "health",
@@ -343,21 +541,34 @@
         "shake",
         "gym"
       ],
+      "search_terms": [
+        "gym",
+        "health",
+        "nutrition",
+        "nutrition protein",
+        "nutrition shake",
+        "protein",
+        "shake"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Protein — shake gym"
+      "description": "Nutrition Protein — Shake Gym"
     },
     {
       "id": "health-016",
+      "title": "Nutrition Salad — Bowl Healthy",
       "object": "Nutrition Salad",
       "variant": "bowl healthy",
       "subcategory": "nutrition",
+      "orientation": "square",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-salad-bowl-healthy.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-salad-bowl-healthy.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 640,
+      "height": 630,
       "size_kb": 102,
       "tags": [
         "health",
@@ -366,21 +577,34 @@
         "bowl",
         "healthy"
       ],
+      "search_terms": [
+        "bowl",
+        "health",
+        "healthy",
+        "nutrition",
+        "nutrition bowl",
+        "nutrition salad",
+        "salad"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Salad — bowl healthy"
+      "description": "Nutrition Salad — Bowl Healthy"
     },
     {
       "id": "health-017",
+      "title": "Nutrition Smoothie — Green Glass",
       "object": "Nutrition Smoothie",
       "variant": "green glass",
       "subcategory": "nutrition",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-smoothie-green-glass.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-smoothie-green-glass.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 686,
+      "height": 1200,
       "size_kb": 86,
       "tags": [
         "health",
@@ -389,21 +613,34 @@
         "green",
         "glass"
       ],
+      "search_terms": [
+        "glass",
+        "green",
+        "health",
+        "nutrition",
+        "nutrition green",
+        "nutrition smoothie",
+        "smoothie"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Smoothie — green glass"
+      "description": "Nutrition Smoothie — Green Glass"
     },
     {
       "id": "health-018",
+      "title": "Nutrition Vegetables — Chopping Board",
       "object": "Nutrition Vegetables",
       "variant": "chopping board",
       "subcategory": "nutrition",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-vegetables-chopping-board.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-vegetables-chopping-board.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 1094,
       "size_kb": 110,
       "tags": [
         "health",
@@ -412,21 +649,34 @@
         "chopping",
         "board"
       ],
+      "search_terms": [
+        "board",
+        "chopping",
+        "health",
+        "nutrition",
+        "nutrition chopping",
+        "nutrition vegetables",
+        "vegetables"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Vegetables — chopping board"
+      "description": "Nutrition Vegetables — Chopping Board"
     },
     {
       "id": "health-019",
+      "title": "Nutrition Vitamins — Supplements Bottle",
       "object": "Nutrition Vitamins",
       "variant": "supplements bottle",
       "subcategory": "nutrition",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-vitamins-supplements-bottle.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-vitamins-supplements-bottle.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 920,
       "size_kb": 81,
       "tags": [
         "health",
@@ -435,21 +685,34 @@
         "supplements",
         "bottle"
       ],
+      "search_terms": [
+        "bottle",
+        "health",
+        "nutrition",
+        "nutrition supplements",
+        "nutrition vitamins",
+        "supplements",
+        "vitamins"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Vitamins — supplements bottle"
+      "description": "Nutrition Vitamins — Supplements Bottle"
     },
     {
       "id": "health-020",
+      "title": "Nutrition Water — Bottle Hydration",
       "object": "Nutrition Water",
       "variant": "bottle hydration",
       "subcategory": "nutrition",
+      "orientation": "portrait",
+      "style": "photorealistic",
       "file": "images/health/nutrition/nutrition-water-bottle-hydration.webp",
       "raw_url": "https://raw.githubusercontent.com/01annanogero-coder/ast-asset-library/main/images/health/nutrition/nutrition-water-bottle-hydration.webp",
       "format": "webp",
-      "dimensions": "—",
+      "width": 736,
+      "height": 980,
       "size_kb": 106,
       "tags": [
         "health",
@@ -458,11 +721,20 @@
         "bottle",
         "hydration"
       ],
+      "search_terms": [
+        "bottle",
+        "health",
+        "hydration",
+        "nutrition",
+        "nutrition bottle",
+        "nutrition water",
+        "water"
+      ],
       "colors": [],
       "mood": "",
       "license": "free",
       "source": "",
-      "description": "Nutrition Water — bottle hydration"
+      "description": "Nutrition Water — Bottle Hydration"
     }
   ]
 }
